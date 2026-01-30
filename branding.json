@@ -1,0 +1,94 @@
+{
+  "appName": "Koch Azubi Tagebuch",
+  "appSubtitle": "Dein digitales Berichtsheft",
+  "appDescription": "IHK-konform · DSGVO-konform · Offline nutzbar",
+  
+  "company": {
+    "name": "🖤 RE:BELLE™ Media",
+    "website": "https://rebellemedia.de",
+    "email": "rebelle.media.creator@gmail.com",
+    "phone": ""
+  },
+  
+  "branding": {
+    "logo": {
+      "url": "",
+      "alt": "Koch Azubi Logo"
+    },
+    "favicon": "",
+    "colors": {
+      "primary": "#BC9E81",
+      "secondary": "#14161B",
+      "accent": "#F5F5F5",
+      "text": "#14161B",
+      "background": "#FFFFFF"
+    },
+    "fonts": {
+      "heading": "system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif",
+      "body": "system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif"
+    }
+  },
+  
+  "footer": {
+    "text": "🖤 RE:BELLE™ Media. The Art of Feeling. Amplified. 🖤 newwomanintheshop.com 🖤 rebellemedia.de 🖤 rebelle.media.creator@gmail.com",
+    "links": [
+      {
+        "text": "Impressum",
+        "url": "impressum.html"
+      },
+      {
+        "text": "Datenschutz",
+        "url": "datenschutz.html"
+      },
+      {
+        "text": "AGB",
+        "url": "agb.html"
+      }
+    ]
+  },
+  
+  "features": {
+    "calendar": true,
+    "glossary": true,
+    "quiz": true,
+    "exam": true,
+    "entries": true,
+    "pdfExport": true
+  },
+  
+  "ihk": {
+    "enabled": true,
+    "reportFormat": "weekly",
+    "companyName": "",
+    "trainerName": "",
+    "apprenticeshipStart": ""
+  },
+  
+  "api": {
+    "enabled": false,
+    "url": "",
+    "key": "",
+    "apprenticeId": 1,
+    "syncOnline": false,
+    "syncInterval": 300000
+  },
+  
+  "customization": {
+    "showBranding": true,
+    "showFooter": true,
+    "showLogo": false,
+    "customCSS": ""
+  },
+  
+  "localization": {
+    "language": "de",
+    "dateFormat": "DD.MM.YYYY",
+    "timeFormat": "HH:mm"
+  },
+  
+  "meta": {
+    "version": "1.0.0",
+    "bundleType": "branded-koch",
+    "lastUpdated": "2026-01-29"
+  }
+}

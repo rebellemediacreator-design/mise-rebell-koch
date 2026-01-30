@@ -1,0 +1,286 @@
+═══════════════════════════════════════════════════════════════════════════
+🖤 HERZLICH WILLKOMMEN & VIELEN DANK FÜR DEINEN KAUF! 🖤
+═══════════════════════════════════════════════════════════════════════════
+
+Danke, dass du dich für die Azubi-App entschieden hast! 
+
+Du hast jetzt Zugriff auf eine vollständige, IHK-konforme Ausbildungs-App 
+mit Kalender, Glossar, Quiz, Prüfungssimulationen und Wissens-Datenbank.
+
+Die App funktioniert auf ALLEN Geräten: 📱 Android, 🍎 iOS, 💻 Desktop!
+
+
+═══════════════════════════════════════════════════════════════════════════
+⚡ SCHNELLSTART - 2 OPTIONEN
+═══════════════════════════════════════════════════════════════════════════
+
+Du hast 2 Möglichkeiten, die App zu nutzen:
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ OPTION 1: NETLIFY (EMPFOHLEN) - Kostenlos & Online                     │
+│ ✅ App ist online erreichbar (eigene URL)                               │
+│ ✅ Funktioniert auf allen Geräten                                       │
+│ ✅ Automatische Updates                                                 │
+│ ✅ 100% KOSTENLOS                                                       │
+└─────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ OPTION 2: LOKAL (EINFACH) - Direkt auf deinem Gerät                    │
+│ ✅ Keine Registrierung nötig                                            │
+│ ✅ Sofort einsatzbereit                                                 │
+│ ✅ Funktioniert offline                                                 │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════
+🚀 OPTION 1: NETLIFY DEPLOYMENT (5 MINUTEN)
+═══════════════════════════════════════════════════════════════════════════
+
+Netlify ist ein KOSTENLOSER Hosting-Service. Deine App bekommt eine eigene 
+URL (z.B. meine-azubi-app.netlify.app) und ist von überall erreichbar!
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ SCHRITT 1: NETLIFY-KONTO ERSTELLEN                                     │
+└─────────────────────────────────────────────────────────────────────────┘
+
+1. Gehe zu: https://app.netlify.com/signup
+2. Registriere dich mit E-Mail, GitHub oder Google
+3. Bestätige deine E-Mail-Adresse
+4. Fertig! (Dauert 2 Minuten)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ SCHRITT 2: APP HOCHLADEN (DRAG & DROP)                                 │
+└─────────────────────────────────────────────────────────────────────────┘
+
+1. Entpacke die ZIP-Datei (Rechtsklick → "Entpacken")
+2. Gehe zu: https://app.netlify.com/drop
+3. ZIEHE den entpackten Ordner auf die Netlify-Seite
+   (Drag & Drop - einfach mit der Maus ziehen!)
+4. Warte 30 Sekunden...
+5. FERTIG! Deine App ist online! 🎉
+
+Du bekommst eine URL wie: https://meine-azubi-app.netlify.app
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ SCHRITT 3: EIGENE URL (OPTIONAL)                                       │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Du kannst die automatische URL ändern:
+
+1. Klicke auf "Site settings"
+2. Klicke auf "Change site name"
+3. Gib einen Namen ein (z.B. "mein-hotel-azubi-app")
+4. Speichern!
+
+Neue URL: https://mein-hotel-azubi-app.netlify.app
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ 💡 TIPP: AUF SMARTPHONE SPEICHERN                                      │
+└─────────────────────────────────────────────────────────────────────────┘
+
+📱 ANDROID (Chrome):
+1. Öffne deine Netlify-URL in Chrome
+2. Tippe auf die 3 Punkte (⋮) oben rechts
+3. Wähle "Zum Startbildschirm hinzufügen"
+4. Fertig! App-Icon erscheint auf deinem Homescreen
+
+🍎 iOS (Safari):
+1. Öffne deine Netlify-URL in Safari
+2. Tippe auf das "Teilen"-Symbol (□↑)
+3. Scrolle runter und wähle "Zum Home-Bildschirm"
+4. Fertig! App-Icon erscheint auf deinem Homescreen
+
+Jetzt kannst du die App wie eine echte App öffnen! 🎉
+
+
+═══════════════════════════════════════════════════════════════════════════
+💻 OPTION 2: LOKALE NUTZUNG (SOFORT STARTEN)
+═══════════════════════════════════════════════════════════════════════════
+
+Du willst die App SOFORT nutzen ohne Netlify? Kein Problem!
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ AUF COMPUTER (WINDOWS/MAC/LINUX)                                       │
+└─────────────────────────────────────────────────────────────────────────┘
+
+1. Entpacke die ZIP-Datei
+2. Öffne den Ordner
+3. DOPPELKLICK auf "index.html"
+4. Die App öffnet sich in deinem Browser!
+5. Fertig! 🎉
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ AUF SMARTPHONE (ANDROID)                                               │
+└─────────────────────────────────────────────────────────────────────────┘
+
+1. Entpacke die ZIP-Datei auf deinem Smartphone
+   (mit "Files" App oder "ZArchiver")
+2. Öffne den entpackten Ordner
+3. Tippe auf "index.html"
+4. Wähle "Chrome" oder "Firefox"
+5. Fertig! 🎉
+
+💡 TIPP: Speichere die Datei in deinen Favoriten (⭐) für schnellen Zugriff!
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ AUF SMARTPHONE (iOS/IPHONE)                                            │
+└─────────────────────────────────────────────────────────────────────────┘
+
+⚠️ WICHTIG: iOS erlaubt NICHT das direkte Öffnen von lokalen HTML-Dateien!
+
+Du hast 2 Optionen:
+1. Nutze NETLIFY (siehe oben) - EMPFOHLEN! ✅
+2. Oder: Sende die Dateien an deinen Computer und öffne dort
+
+Warum? Apple-Sicherheitsrichtlinien verbieten lokale HTML-Dateien.
+Netlify ist die einfachste Lösung und dauert nur 5 Minuten! 🚀
+
+
+═══════════════════════════════════════════════════════════════════════════
+🎨 BRANDING ANPASSEN (OPTIONAL)
+═══════════════════════════════════════════════════════════════════════════
+
+Du möchtest die App mit deinem eigenen Branding versehen?
+
+1. Öffne die Datei "branding.json" mit einem Texteditor
+2. Ändere folgende Werte:
+
+   {
+     "companyName": "Dein Firmenname",
+     "appTitle": "Dein App-Titel",
+     "primaryColor": "#BC9E81",
+     "logo": "https://deine-website.de/logo.png"
+   }
+
+3. Speichern und neu hochladen (Netlify) oder neu öffnen (lokal)
+4. Fertig! Deine App hat jetzt dein Branding! 🎨
+
+
+═══════════════════════════════════════════════════════════════════════════
+📚 FEATURES DER APP
+═══════════════════════════════════════════════════════════════════════════
+
+✅ KALENDER
+   - Tages-, Wochen-, Monats-Ansicht
+   - Notizen & Einträge
+   - PDF-Export (IHK-konform)
+
+✅ GLOSSAR
+   - 178 Fachbegriffe
+   - 3 Lehrjahre (Koch/Köchin)
+   - Suchfunktion
+
+✅ QUIZ
+   - Interaktive Quizze
+   - Sofort-Feedback
+   - Fortschritt-Tracking
+
+✅ PRÜFUNG
+   - 9 Prüfungssimulationen
+   - IHK-ähnliche Fragen
+   - Detaillierte Auswertung
+
+✅ WISSEN
+   - Alle Lernfelder (LF 1-14)
+   - Strukturiert nach Lehrjahren
+   - Kernziele, Praktische Fertigkeiten, Theoretische Inhalte
+
+✅ OFFLINE-MODUS
+   - Funktioniert ohne Internet
+   - Alle Daten in LocalStorage
+   - Automatische Synchronisation
+
+
+═══════════════════════════════════════════════════════════════════════════
+❓ HÄUFIGE FRAGEN (FAQ)
+═══════════════════════════════════════════════════════════════════════════
+
+Q: Ist Netlify wirklich kostenlos?
+A: JA! 100% kostenlos. Keine Kreditkarte nötig. Keine versteckten Kosten.
+
+Q: Kann ich die App auf mehreren Geräten nutzen?
+A: JA! Mit Netlify kannst du die App auf allen Geräten öffnen (gleiche URL).
+
+Q: Funktioniert die App offline?
+A: JA! Alle Daten werden lokal gespeichert (LocalStorage).
+
+Q: Kann ich die App an mehrere Azubis verteilen?
+A: JA! Einfach die Netlify-URL teilen oder ZIP-Datei weitergeben.
+
+Q: Ist die App IHK-konform?
+A: JA! Alle Inhalte sind IHK-konform und DSGVO-konform.
+
+Q: Kann ich eigene Inhalte hinzufügen?
+A: JA! Du kannst die JSON-Dateien bearbeiten (z.B. lehrjahr_1.json).
+
+Q: Brauche ich Programmierkenntnisse?
+A: NEIN! Einfach ZIP entpacken und hochladen/öffnen. Fertig!
+
+
+═══════════════════════════════════════════════════════════════════════════
+🆘 SUPPORT & KONTAKT
+═══════════════════════════════════════════════════════════════════════════
+
+Du hast Fragen oder brauchst Hilfe?
+
+🖤 RE:BELLE™ Media
+   The Art of Feeling. Amplified.
+
+📧 E-Mail: rebelle.media.creator@gmail.com
+🌐 Website: newwomanintheshop.com
+🌐 Website: rebellemedia.de
+📞 Telefon: 01629471865
+
+Wir helfen dir gerne weiter! 🖤
+
+
+═══════════════════════════════════════════════════════════════════════════
+🎉 VIEL ERFOLG MIT DEINER AUSBILDUNG!
+═══════════════════════════════════════════════════════════════════════════
+
+Wir wünschen dir viel Spaß mit der App und eine erfolgreiche Ausbildung!
+
+Die App wird dir helfen:
+✅ Deine Ausbildung zu dokumentieren (IHK-konform)
+✅ Fachbegriffe zu lernen (178 Begriffe)
+✅ Dich auf Prüfungen vorzubereiten (9 Simulationen)
+✅ Dein Wissen zu vertiefen (14 Lernfelder)
+
+Du schaffst das! 💪
+
+Mit besten Grüßen,
+Dein RE:BELLE™ Media Team 🖤
+
+
+═══════════════════════════════════════════════════════════════════════════
+📄 LIZENZ & NUTZUNGSBEDINGUNGEN
+═══════════════════════════════════════════════════════════════════════════
+
+✅ Du darfst die App für deine eigene Ausbildung nutzen
+✅ Du darfst die App an deine Azubis weitergeben
+✅ Du darfst die App mit deinem Branding versehen (White-Label)
+
+❌ Du darfst die App NICHT weiterverkaufen
+❌ Du darfst den Quellcode NICHT als eigenes Produkt verkaufen
+
+Weitere Details findest du in der Datei "LIZENZ.pdf".
+
+
+═══════════════════════════════════════════════════════════════════════════
+🔗 NÜTZLICHE LINKS
+═══════════════════════════════════════════════════════════════════════════
+
+📦 Netlify: https://app.netlify.com/drop
+📚 Netlify Docs: https://docs.netlify.com
+🎓 IHK: https://www.ihk.de
+🖤 RE:BELLE™ Media: https://newwomanintheshop.com
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+Erstellt mit 🖤 von RE:BELLE™ Media
+The Art of Feeling. Amplified.
+
+© 2025 RE:BELLE™ Media. Alle Rechte vorbehalten.
+
+═══════════════════════════════════════════════════════════════════════════
