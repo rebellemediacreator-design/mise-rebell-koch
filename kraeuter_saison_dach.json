@@ -10,7 +10,11 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Petroselinum crispum",
       "pflanzenfamilie": "Apiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
         "sinnvoll_bio": true,
         "gruende": [
@@ -19,14 +23,32 @@
         ]
       },
       "saison_dach": {
-        "freiland": ["Mai", "Juni", "Juli", "August", "September", "Oktober"],
-        "gewaechshaus": ["Maerz", "April", "November"],
-        "topfware": ["Januar", "Februar", "Dezember"]
+        "freiland": [
+          "Mai",
+          "Juni",
+          "Juli",
+          "August",
+          "September",
+          "Oktober"
+        ],
+        "gewaechshaus": [
+          "Maerz",
+          "April",
+          "November"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "95-100",
-        "nicht_geeignet": ["ungeschuetzt_im_kuehlschrank", "zimmerwarm"],
+        "nicht_geeignet": [
+          "ungeschuetzt_im_kuehlschrank",
+          "zimmerwarm"
+        ],
         "lagerdauer": "3-7 Tage",
         "besonderheiten": "in feuchtes Tuch einschlagen oder wie Blumen im Wasserglas lagern"
       },
@@ -55,7 +77,11 @@
       "unterkategorie": "schnittkraut",
       "lateinischer_name": "Allium schoenoprasum",
       "pflanzenfamilie": "Amaryllidaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
         "sinnvoll_bio": true,
         "gruende": [
@@ -64,13 +90,30 @@
         ]
       },
       "saison_dach": {
-        "freiland": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober"],
-        "topfware": ["Januar", "Februar", "Maerz", "November", "Dezember"]
+        "freiland": [
+          "April",
+          "Mai",
+          "Juni",
+          "Juli",
+          "August",
+          "September",
+          "Oktober"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "95-100",
-        "nicht_geeignet": ["trockene_lagerung", "ungenügende_abdeckung"],
+        "nicht_geeignet": [
+          "trockene_lagerung",
+          "ungenügende_abdeckung"
+        ],
         "lagerdauer": "3-7 Tage",
         "besonderheiten": "am besten im Glas mit etwas Wasser und Folienhaube aufbewahren"
       },
@@ -98,7 +141,11 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Ocimum basilicum",
       "pflanzenfamilie": "Lamiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
         "sinnvoll_bio": true,
         "gruende": [
@@ -107,14 +154,31 @@
         ]
       },
       "saison_dach": {
-        "freiland": ["Juni", "Juli", "August", "September"],
-        "gewaechshaus": ["Mai", "Oktober"],
-        "topfware": ["Januar", "Februar", "Maerz", "April", "November", "Dezember"]
+        "freiland": [
+          "Juni",
+          "Juli",
+          "August",
+          "September"
+        ],
+        "gewaechshaus": [
+          "Mai",
+          "Oktober"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "April",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "10-18",
         "luftfeuchtigkeit_prozent": "90-95",
-        "nicht_geeignet": ["kuehlschrank_unter_8_grad"],
+        "nicht_geeignet": [
+          "kuehlschrank_unter_8_grad"
+        ],
         "lagerdauer": "2-4 Tage",
         "besonderheiten": "wärmeliebend; bei Kälte wird es schwarz"
       },
@@ -141,21 +205,41 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Thymus vulgaris",
       "pflanzenfamilie": "Lamiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
-        "sinnvoll_bio": eher_true,
+        "sinnvoll_bio": true,
         "gruende": [
           "ätherische Öle im Fokus, konventionell aber meist moderat behandelt"
         ]
       },
       "saison_dach": {
-        "freiland": ["Mai", "Juni", "Juli", "August", "September"],
-        "topfware": ["Januar", "Februar", "Maerz", "April", "Oktober", "November", "Dezember"]
+        "freiland": [
+          "Mai",
+          "Juni",
+          "Juli",
+          "August",
+          "September"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "April",
+          "Oktober",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "85-95",
-        "nicht_geeignet": ["zu_trockenheit"],
+        "nicht_geeignet": [
+          "zu_trockenheit"
+        ],
         "lagerdauer": "1-2 Wochen",
         "besonderheiten": "als Sträußchen im Kühlschrank gut lagerbar; auch getrocknet sehr aromatisch"
       },
@@ -182,22 +266,42 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Salvia rosmarinus",
       "pflanzenfamilie": "Lamiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
-        "sinnvoll_bio": eher_true,
+        "sinnvoll_bio": true,
         "gruende": [
           "ätherische Öle im Vordergrund, Rückstände gering",
           "meist in kleinen Mengen verwendet"
         ]
       },
       "saison_dach": {
-        "freiland": ["Mai", "Juni", "Juli", "August", "September"],
-        "topfware": ["Januar", "Februar", "Maerz", "April", "Oktober", "November", "Dezember"]
+        "freiland": [
+          "Mai",
+          "Juni",
+          "Juli",
+          "August",
+          "September"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "April",
+          "Oktober",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "80-90",
-        "nicht_geeignet": ["zu_feucht (Schimmel)"],
+        "nicht_geeignet": [
+          "zu_feucht (Schimmel)"
+        ],
         "lagerdauer": "2-3 Wochen",
         "besonderheiten": "verholzte Zweige sehr robust; lässt sich gut trocknen"
       },
@@ -225,21 +329,41 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Origanum vulgare",
       "pflanzenfamilie": "Lamiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
-        "sinnvoll_bio": eher_true,
+        "sinnvoll_bio": true,
         "gruende": [
           "meist getrocknet genutzt; Rückstände eher gering"
         ]
       },
       "saison_dach": {
-        "freiland": ["Juni", "Juli", "August", "September"],
-        "topfware": ["Januar", "Februar", "Maerz", "April", "Mai", "Oktober", "November", "Dezember"]
+        "freiland": [
+          "Juni",
+          "Juli",
+          "August",
+          "September"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "April",
+          "Mai",
+          "Oktober",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "85-95",
-        "nicht_geeignet": ["sehr_feuchter_luft"],
+        "nicht_geeignet": [
+          "sehr_feuchter_luft"
+        ],
         "lagerdauer": "1-2 Wochen",
         "besonderheiten": "getrocknet besonders aromatisch; kühl und dunkel lagern"
       },
@@ -266,21 +390,41 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Origanum majorana",
       "pflanzenfamilie": "Lamiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
-        "sinnvoll_bio": eher_true,
+        "sinnvoll_bio": true,
         "gruende": [
           "Wurst- und Fleischgerichte; Kräuteranteil relativ gering"
         ]
       },
       "saison_dach": {
-        "freiland": ["Juni", "Juli", "August", "September"],
-        "topfware": ["Januar", "Februar", "Maerz", "April", "Mai", "Oktober", "November", "Dezember"]
+        "freiland": [
+          "Juni",
+          "Juli",
+          "August",
+          "September"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "April",
+          "Mai",
+          "Oktober",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "85-95",
-        "nicht_geeignet": ["stark_trockene_luft"],
+        "nicht_geeignet": [
+          "stark_trockene_luft"
+        ],
         "lagerdauer": "1-2 Wochen",
         "besonderheiten": "ideal zum Trocknen – Aroma bleibt gut erhalten"
       },
@@ -307,7 +451,11 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Anethum graveolens",
       "pflanzenfamilie": "Apiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
         "sinnvoll_bio": true,
         "gruende": [
@@ -316,13 +464,30 @@
         ]
       },
       "saison_dach": {
-        "freiland": ["Mai", "Juni", "Juli", "August", "September"],
-        "topfware": ["Januar", "Februar", "Maerz", "April", "Oktober", "November", "Dezember"]
+        "freiland": [
+          "Mai",
+          "Juni",
+          "Juli",
+          "August",
+          "September"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "April",
+          "Oktober",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "95-100",
-        "nicht_geeignet": ["ungeschuetzt", "zu_warm"],
+        "nicht_geeignet": [
+          "ungeschuetzt",
+          "zu_warm"
+        ],
         "lagerdauer": "3-5 Tage",
         "besonderheiten": "wie Schnittblumen im Glas mit Wasser oder in feuchtes Tuch einschlagen"
       },
@@ -349,7 +514,11 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Coriandrum sativum",
       "pflanzenfamilie": "Apiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
         "sinnvoll_bio": true,
         "gruende": [
@@ -358,14 +527,32 @@
         ]
       },
       "saison_dach": {
-        "freiland": ["Juni", "Juli", "August"],
-        "gewaechshaus": ["Mai", "September"],
-        "topfware": ["Januar", "Februar", "Maerz", "April", "Oktober", "November", "Dezember"]
+        "freiland": [
+          "Juni",
+          "Juli",
+          "August"
+        ],
+        "gewaechshaus": [
+          "Mai",
+          "September"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "April",
+          "Oktober",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "95-100",
-        "nicht_geeignet": ["zimmerwarm", "ungeschuetzt"],
+        "nicht_geeignet": [
+          "zimmerwarm",
+          "ungeschuetzt"
+        ],
         "lagerdauer": "2-4 Tage",
         "besonderheiten": "sehr empfindlich gegen Wärme und Austrocknung"
       },
@@ -392,7 +579,11 @@
       "unterkategorie": "blattkraut",
       "lateinischer_name": "Mentha × piperita / Mentha spicata",
       "pflanzenfamilie": "Lamiaceae",
-      "region_typisch": ["DE", "AT", "CH"],
+      "region_typisch": [
+        "DE",
+        "AT",
+        "CH"
+      ],
       "bio_hinweise": {
         "sinnvoll_bio": true,
         "gruende": [
@@ -401,13 +592,30 @@
         ]
       },
       "saison_dach": {
-        "freiland": ["Mai", "Juni", "Juli", "August", "September"],
-        "topfware": ["Januar", "Februar", "Maerz", "April", "Oktober", "November", "Dezember"]
+        "freiland": [
+          "Mai",
+          "Juni",
+          "Juli",
+          "August",
+          "September"
+        ],
+        "topfware": [
+          "Januar",
+          "Februar",
+          "Maerz",
+          "April",
+          "Oktober",
+          "November",
+          "Dezember"
+        ]
       },
       "lagerung": {
         "temperatur_celsius": "2-7",
         "luftfeuchtigkeit_prozent": "95-100",
-        "nicht_geeignet": ["trockene_lagerung", "direkte_sonne"],
+        "nicht_geeignet": [
+          "trockene_lagerung",
+          "direkte_sonne"
+        ],
         "lagerdauer": "3-5 Tage",
         "besonderheiten": "im Wasserglas wie Blumen oder in feuchtes Tuch einschlagen"
       },
