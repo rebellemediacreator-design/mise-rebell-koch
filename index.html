@@ -10,7 +10,6 @@
 <link href="styles-enhanced.css" rel="stylesheet"/>
 <link href="toast.css" rel="stylesheet"/>
 <link href="sync-status.css" rel="stylesheet"/>
-<link href="saison.css" rel="stylesheet"/>
 <script>window.__INLINE_CSS__ = ':root{\n  --dust:#D2CABF;\n  --ash:#6B5945;\n  --camel:#BC9E81;\n  --warm:#EEECE4;\n  --ink:#1A1A1A;\n\n  --radius:18px;\n  --shadow: 0 10px 30px rgba(0,0,0,.12);\n  --shadow2: 0 6px 18px rgba(0,0,0,.10);\n\n  --maxw:1100px;\n  --tap:44px;\n\n  --headerH: 148px;\n  --tabsH: 56px;\n}\n\n/* Base */\n*{box-sizing:border-box}\nhtml,body{height:100%}\nbody{\n  margin:0;\n  color:var(--ash);\n  background:\n    linear-gradient(rgba(238,236,228,.55), rgba(238,236,228,.55)),\n    url("fernlichtsicht_20260108_p_3805640354150510642_2_3805640339327833000.jpg");\n  background-size:cover;\n  background-position:center;\n  background-attachment:fixed;\n  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";\n}\n\na{color:inherit}\nbutton,input,select,textarea{font:inherit}\n\n.app{min-height:100%; display:flex; flex-direction:column}\n.wrap{max-width:var(--maxw); margin:0 auto; padding:0 16px}\n\n/* Topbar */\n.topbar{\n  position:sticky; top:0; z-index:50;\n  background:rgba(210,202,191,.92);\n  backdrop-filter: blur(10px);\n  border-bottom:1px solid rgba(107,89,69,.15);\n  transform: translateY(var(--topbarOffset, 0px));\n  transition: transform .25s ease;\n}\n.topbar.is-hidden{ --topbarOffset: -200px; }\n\n.topbar .brand{display:flex; align-items:flex-start; justify-content:space-between; gap:14px; padding:14px 16px 10px}\n.brand__title{font-weight:800; letter-spacing:.01em; font-size:18px; color:var(--ink)}\n.brand__subtitle{font-size:13px; opacity:.85}\n\n.topbar__row{display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; padding:0 16px 12px}\n\n.yearSwitch{display:flex; gap:8px; flex-wrap:wrap}\n.yearBtn{\n  height:40px; padding:0 12px;\n  border-radius:999px;\n  border:1px solid rgba(107,89,69,.22);\n  background: rgba(238,236,228,.75);\n  color:var(--ink);\n  font-weight:700;\n}\n.yearBtn.is-active{\n  background:var(--camel);\n  border-color: rgba(107,89,69,.25);\n}\n\n.stats{display:flex; gap:10px; flex-wrap:wrap}\n.stat{\n  background: rgba(238,236,228,.70);\n  border:1px solid rgba(107,89,69,.14);\n  border-radius:14px;\n  padding:8px 12px;\n  min-width:92px;\n  box-shadow: var(--shadow2);\n}\n.stat__num{font-weight:900; font-size:18px; color:var(--ink)}\n.stat__label{font-size:12px; opacity:.75}\n\n.topbar__actions{display:flex; gap:10px; padding:0 16px 14px}\n.btn, .btn:visited{\n  height:var(--tap);\n  display:inline-flex; align-items:center; justify-content:center;\n  padding:0 14px;\n  border-radius:14px;\n  border:1px solid rgba(107,89,69,.22);\n  background: rgba(238,236,228,.80);\n  color:var(--ink);\n  font-weight:800;\n  cursor:pointer;\n  box-shadow: var(--shadow2);\n}\n.btn--primary{\n  background: var(--camel);\n  border-color: rgba(107,89,69,.25);\n}\n.btn--ghost{\n  background: rgba(238,236,228,.55);\n}\n.btn:active{transform: translateY(1px)}\n\n.filebtn input{display:none}\n\n/* Tabs */\n.tabs{\n  position:sticky; top: var(--topbarH, 0px);\n  z-index:49;\n  background: rgba(238,236,228,.86);\n  backdrop-filter: blur(10px);\n  border-bottom:1px solid rgba(107,89,69,.14);\n  display:flex;\n  gap:8px;\n  padding:10px 10px;\n  overflow-x:auto;\n  transform: translateY(var(--tabsOffset, 0px));\n  transition: transform .25s ease;\n}\n.tabs.is-hidden{ --tabsOffset: -90px; }\n\n.tab{\n  height:42px;\n  padding:0 12px;\n  border-radius:999px;\n  border:1px solid rgba(107,89,69,.18);\n  background: rgba(210,202,191,.35);\n  color:var(--ink);\n  font-weight:800;\n  cursor:pointer;\n  white-space:nowrap;\n}\n.tab.is-active{\n  background: rgba(188,158,129,.90);\n}\n\n.main{flex:1; max-width:var(--maxw); margin:0 auto; width:100%; padding:18px 16px 92px}\n.panel{display:none}\n.panel.is-active{display:block}\n\n.panel__header{display:flex; align-items:flex-end; justify-content:space-between; gap:12px; margin:16px 0 10px}\n.h1{margin:0; font-size:28px; color:var(--ink); letter-spacing:-.02em}\n.h2{margin:0; font-size:18px; color:var(--ink)}\n.p{margin:0 0 12px}\n.ul{margin:0; padding-left:18px}\n.muted{opacity:.78}\n.pill{\n  display:inline-flex; align-items:center; justify-content:center;\n  padding:8px 12px;\n  border-radius:999px;\n  background: rgba(210,202,191,.50);\n  border:1px solid rgba(107,89,69,.14);\n  color:var(--ink);\n  font-weight:800;\n}\n\n/* Cards / forms */\n.card{\n  background: rgba(238,236,228,.80);\n  border:1px solid rgba(107,89,69,.14);\n  border-radius: var(--radius);\n  box-shadow: var(--shadow);\n  padding:16px;\n}\n\n.grid{display:grid; grid-template-columns:1fr; gap:12px}\n.grid--3{grid-template-columns:1fr}\n@media (min-width: 840px){\n  .grid{grid-template-columns:1fr 1fr}\n  .grid--3{grid-template-columns:1fr 1fr 1fr}\n}\n\n.field label{display:block; font-size:12px; letter-spacing:.08em; text-transform:uppercase; font-weight:900; color:rgba(26,26,26,.78); margin-bottom:6px}\n.field input, .field select, .field textarea{\n  width:100%;\n  border-radius:14px;\n  border:1px solid rgba(107,89,69,.18);\n  background: rgba(255,255,255,.72);\n  padding:12px 12px;\n  outline:none;\n  color:var(--ink);\n}\n.field textarea{resize:vertical}\n.help{font-size:12px; opacity:.75; margin-top:6px}\n\n.divider{height:1px; background: rgba(107,89,69,.12); margin:14px 0}\n\n.row{display:flex; gap:10px; flex-wrap:wrap; align-items:center}\n.row--end{justify-content:flex-end}\n\n.kv{display:grid; grid-template-columns: 1fr; gap:10px}\n@media (min-width:840px){ .kv{grid-template-columns: 200px 1fr} }\n\n/* Entries used for glossar and list */\n.entry{\n  border-radius:16px;\n  border:1px solid rgba(107,89,69,.14);\n  background: rgba(255,255,255,.60);\n  padding:14px;\n  box-shadow: var(--shadow2);\n  margin-bottom:10px;\n}\n.entry__title{font-weight:900; font-size:16px; color:var(--ink)}\n.entry__meta{font-size:12px; opacity:.78; margin-top:4px}\n.entry__body{margin-top:10px}\n\n.entries{display:flex; flex-direction:column; gap:10px}\n\n/* Calendar */\n.calWeekdays{display:grid; grid-template-columns:repeat(7,1fr); gap:6px; font-weight:900; font-size:12px; opacity:.72}\n.calendarGrid{display:grid; grid-template-columns:repeat(7,1fr); gap:6px; margin-top:10px}\n.calDay{\n  min-height:44px;\n  border-radius:12px;\n  border:1px solid rgba(107,89,69,.14);\n  background: rgba(255,255,255,.55);\n  display:flex; align-items:center; justify-content:center;\n  cursor:pointer;\n  font-weight:800;\n}\n.calDay.is-marked{background: rgba(188,158,129,.65)}\n\n/* Checks */\n.checks{display:flex; flex-wrap:wrap; gap:10px}\n.check{display:flex; gap:8px; align-items:center; padding:8px 10px; border-radius:999px; background: rgba(210,202,191,.35); border:1px solid rgba(107,89,69,.12)}\n.check input{width:18px; height:18px}\n\n/* Wissen */\n.wissenWrap{display:grid; grid-template-columns: 1fr; gap:12px}\n@media (min-width: 920px){ .wissenWrap{grid-template-columns: 280px 1fr} }\n.wissenNav{\n  border-radius:16px;\n  border:1px solid rgba(107,89,69,.14);\n  background: rgba(255,255,255,.55);\n  padding:12px;\n  position:sticky; top:140px;\n  height: fit-content;\n}\n.wissenNav__title{font-weight:900; margin-bottom:8px; color:var(--ink)}\n.wissenNav__items{display:flex; flex-direction:column; gap:6px}\n.wissenNav__items button{\n  text-align:left;\n  padding:10px 10px;\n  border-radius:12px;\n  border:1px solid rgba(107,89,69,.14);\n  background: rgba(238,236,228,.75);\n  cursor:pointer;\n  font-weight:800;\n}\n.wissenNav__items button.is-active{background: rgba(188,158,129,.75)}\n.wissenContent{color:var(--ink)}\n.wissenContent h2{margin:0 0 10px}\n.wissenContent h3{margin:18px 0 10px}\n\n/* Glossar TOC */\n.glossarToc{\n  display:flex;\n  gap:6px;\n  flex-wrap:wrap;\n  margin-top:12px;\n  padding-bottom:8px;\n}\n.glossarToc a{\n  display:inline-flex;\n  min-width:34px;\n  height:34px;\n  align-items:center;\n  justify-content:center;\n  border-radius:12px;\n  text-decoration:none;\n  border:1px solid rgba(107,89,69,.14);\n  background: rgba(210,202,191,.35);\n  font-weight:900;\n  color:var(--ink);\n}\n.glossarToc a:hover{background: rgba(188,158,129,.55)}\n\n/* Quiz / Exam */\n.quizTop,.examTop{display:flex; justify-content:space-between; gap:10px; align-items:center; flex-wrap:wrap}\n.qText,.examQ__text{font-size:18px; font-weight:900; color:var(--ink); line-height:1.25}\n.choices,.examChoices{display:grid; grid-template-columns:1fr; gap:10px; margin-top:12px}\n.choice{\n  padding:12px;\n  border-radius:16px;\n  border:1px solid rgba(107,89,69,.16);\n  background: rgba(255,255,255,.65);\n  cursor:pointer;\n  font-weight:800;\n  text-align:left;\n}\n.choice:hover{background: rgba(210,202,191,.55)}\n.choice.is-selected{outline: 2px solid rgba(188,158,129,.95)}\n.choice.is-correct{background: rgba(188,158,129,.65)}\n.choice.is-wrong{background: rgba(107,89,69,.22)}\n.feedback{\n  border-radius:16px;\n  padding:12px;\n  border:1px solid rgba(107,89,69,.14);\n  background: rgba(255,255,255,.60);\n}\n.examCard{\n  border-radius:18px;\n  border:1px solid rgba(107,89,69,.14);\n  background: rgba(255,255,255,.60);\n  padding:14px;\n  box-shadow: var(--shadow2);\n}\n.examCard__title{font-weight:900; color:var(--ink)}\n.examCard__meta{margin-top:6px; font-size:12px; opacity:.78}\n.resultBox{\n  border-radius:18px;\n  border:1px solid rgba(107,89,69,.14);\n  background: rgba(188,158,129,.50);\n  padding:14px;\n  box-shadow: var(--shadow2);\n}\n.resultBox__title{font-weight:900; font-size:18px; color:var(--ink)}\n.resultBox__meta{margin-top:6px; font-size:12px; opacity:.85}\n\n/* Footer */\n.footer{\n  background: rgba(107,89,69,.92);\n  color: rgba(238,236,228,.96);\n  padding:18px 16px;\n  border-top:1px solid rgba(238,236,228,.10);\n}\n.footer__wrap{max-width:var(--maxw); margin:0 auto}\n.footer__note{font-weight:900}\n.footer__sub{margin-top:6px; font-size:12px; opacity:.9}\n.footer__sub a{color: rgba(238,236,228,.96); text-decoration:none}\n.dot{opacity:.65; padding:0 6px}\n\n/* Toast */\n.toast{\n  position: fixed;\n  left: 50%;\n  bottom: 82px;\n  transform: translateX(-50%);\n  background: rgba(26,26,26,.86);\n  color: rgba(238,236,228,.96);\n  padding:10px 14px;\n  border-radius: 999px;\n  font-weight:900;\n  box-shadow: var(--shadow);\n  opacity:0;\n  pointer-events:none;\n  transition: opacity .25s ease;\n  z-index:99;\n}\n.toast.is-on{opacity:1}\n\n/* Mobile: bottom tabs, header hides on scroll */\n@media (max-width: 820px){\n  body{background-attachment:scroll}\n  .main{padding-bottom: 132px}\n  .tabs{\n    position: fixed;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    top: auto;\n    border-top:1px solid rgba(107,89,69,.16);\n    border-bottom:none;\n    padding:10px 10px calc(10px + env(safe-area-inset-bottom));\n  }\n  .wissenNav{position:relative; top:auto}\n}\n/* ===== MINI STRIP (Variante C) ===== */\n.miniStrip{\n  position: sticky;\n  top: 0;\n  z-index: 60;\n\n  display: none; /* wird per JS aktiviert */\n  align-items: center;\n  justify-content: space-between;\n  gap: 10px;\n\n  padding: 10px 12px;\n  margin-bottom: 10px;\n\n  background: rgba(210,202,191,.78);\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(107,89,69,.18);\n  border-radius: var(--radius);\n  box-shadow: 0 14px 38px rgba(0,0,0,.14);\n}\n\n.miniStrip.is-on{\n  display: flex;\n}\n\n.miniStrip__left{\n  display:flex;\n  align-items:center;\n  gap:10px;\n  min-width: 0;\n}\n\n.miniStrip__title{\n  font-weight: 900;\n  font-size: 14px;\n  letter-spacing: .01em;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  max-width: 48vw;\n}\n\n.miniStrip__year{\n  padding: 7px 10px;\n  border-radius: 999px;\n  background: rgba(188,158,129,.95);\n  color: #2f241b;\n  font-weight: 900;\n  font-size: 12px;\n  white-space: nowrap;\n}\n\n.miniStrip__right{\n  display:flex;\n  gap:8px;\n  align-items:center;\n}\n\n.miniStrip__btn{\n  border:none;\n  padding: 9px 12px;\n  border-radius: 14px;\n  background: rgba(238,236,228,.92);\n  color: var(--ash);\n  font-weight: 900;\n  cursor: pointer;\n  border: 1px solid rgba(107,89,69,.14);\n  box-shadow: 0 8px 18px rgba(0,0,0,.10);\n}\n\n.miniStrip__btn--primary{\n  background: rgba(107,89,69,.92);\n  color: var(--white);\n}\n\n/* Header-Hide bleibt wie gehabt */\n.topbar.is-hidden{\n  transform: translateY(-110%);\n  opacity: 0;\n  pointer-events: none;\n}\n\n';</script>
 
 <script>
@@ -656,43 +655,45 @@ Timer · Kein Zurück · Kein Feedback während Prüfung · Nur am Ende Ergebnis
 </div>
 </section>
 
-<!-- SAISON KALENDER -->
+<!-- SAISON -->
 <section class="panel" id="panel-saison">
-<div class="panel__header">
-<h1 class="h1">🌱 Saisonkalender</h1>
-</div>
-<div class="card">
-<p class="p muted">Entdecke saisonales Obst, Gemüse und Kräuter aus der DACH-Region. Wähle einen Monat und eine Kategorie.</p>
-
-<div class="saisonControls">
-<!-- Category Buttons -->
-<div class="saisonCategoryBar">
-<button class="saisonCategoryBtn is-active" data-category="obst" type="button">🍎 Obst</button>
-<button class="saisonCategoryBtn" data-category="gemuese" type="button">🥕 Gemüse</button>
-<button class="saisonCategoryBtn" data-category="kraeuter" type="button">🌿 Kräuter</button>
-</div>
-
-<!-- Month Buttons -->
-<div class="saisonMonthBar">
-<button class="saisonMonthBtn" data-month="1" type="button">Jan</button>
-<button class="saisonMonthBtn" data-month="2" type="button">Feb</button>
-<button class="saisonMonthBtn" data-month="3" type="button">Mär</button>
-<button class="saisonMonthBtn" data-month="4" type="button">Apr</button>
-<button class="saisonMonthBtn" data-month="5" type="button">Mai</button>
-<button class="saisonMonthBtn" data-month="6" type="button">Jun</button>
-<button class="saisonMonthBtn" data-month="7" type="button">Jul</button>
-<button class="saisonMonthBtn" data-month="8" type="button">Aug</button>
-<button class="saisonMonthBtn" data-month="9" type="button">Sep</button>
-<button class="saisonMonthBtn" data-month="10" type="button">Okt</button>
-<button class="saisonMonthBtn" data-month="11" type="button">Nov</button>
-<button class="saisonMonthBtn" data-month="12" type="button">Dez</button>
-</div>
-</div>
-
-<div class="saisonContent" id="saisonContent">
-<div class="saisonEmpty">Lade Daten...</div>
-</div>
-</div>
+  <div class="panel__header">
+    <h1 class="h1">🌱 Saisonkalender</h1>
+  </div>
+  
+  <!-- Category Selection -->
+  <div class="saisonCategorySelector">
+    <button class="saisonCategoryBtn is-active" data-category="gemuese" type="button">
+      🥕 Gemüse
+    </button>
+    <button class="saisonCategoryBtn" data-category="obst" type="button">
+      🍎 Obst
+    </button>
+    <button class="saisonCategoryBtn" data-category="kraeuter" type="button">
+      🌿 Kräuter
+    </button>
+  </div>
+  
+  <!-- Month Selection -->
+  <div class="saisonMonthSelector">
+    <button class="saisonMonthBtn" data-month="1" type="button">Jan</button>
+    <button class="saisonMonthBtn" data-month="2" type="button">Feb</button>
+    <button class="saisonMonthBtn" data-month="3" type="button">Mär</button>
+    <button class="saisonMonthBtn" data-month="4" type="button">Apr</button>
+    <button class="saisonMonthBtn" data-month="5" type="button">Mai</button>
+    <button class="saisonMonthBtn" data-month="6" type="button">Jun</button>
+    <button class="saisonMonthBtn" data-month="7" type="button">Jul</button>
+    <button class="saisonMonthBtn" data-month="8" type="button">Aug</button>
+    <button class="saisonMonthBtn" data-month="9" type="button">Sep</button>
+    <button class="saisonMonthBtn" data-month="10" type="button">Okt</button>
+    <button class="saisonMonthBtn" data-month="11" type="button">Nov</button>
+    <button class="saisonMonthBtn" data-month="12" type="button">Dez</button>
+  </div>
+  
+  <!-- Content -->
+  <div id="saisonContent">
+    <div class="saisonEmpty">Wähle einen Monat...</div>
+  </div>
 </section>
 
 <!-- INFO -->
@@ -748,7 +749,8 @@ Timer · Kein Zurück · Kein Feedback während Prüfung · Nur am Ende Ergebnis
 <script src="sync-status.js" defer></script>
 <script src="wissen.js?v=warm1" defer></script>
 <script src="glossary.js?v=warm1" defer></script>
-<script src="saison.js?v=warm1" defer></script>
+<link href="saison.css" rel="stylesheet"/>
+<script src="saison.js" defer></script>
 <script src="app-enhanced.js?v=warm1" defer></script>
 <script src="exam-complete.js?v=warm1" defer></script>
 <script src="calendar-pdf.js?v=warm1" defer></script>

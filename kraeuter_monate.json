@@ -1,0 +1,125 @@
+{
+  "region": "DACH (Deutschland, Österreich, Schweiz)",
+  "kategorie": "KRÄUTER",
+  "titel": "🌿 KRÄUTER - Saisonkalender nach Monaten sortiert",
+  "version": "1.0_kraeuter_monatlich",
+  "beschreibung": "Alle Kräuter sortiert nach 12 Monaten. Hochsaison-Flag, lat. Name, Familie, Herkunft, Lagerung, Konservierung, Gerichte, Verarbeitung.",
+  
+  "januar": {
+    "monat": "Januar",
+    "wetter": "Kalt. Getrocknete Kräuter, Gewächshaus.",
+    "kraeuter": [
+      {"name": "Rosmarin (Gewächshaus)", "hochsaison": false, "lat": "Rosmarinus officinalis", "familie": "Lamiaceae", "herkunft": "Gewächshaus DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "2-3", "konservierung": ["Trocknen", "Einfrieren", "Öl"], "gerichte": ["Bratkartoffeln", "Lammgerichte", "Focaccia"], "verarbeitung": "Nadeln abzupfen, ganze Zweige mitgaren und vor Servieren entfernen"},
+      {"name": "Thymian (Gewächshaus)", "hochsaison": false, "lat": "Thymus vulgaris", "familie": "Lamiaceae", "herkunft": "Gewächshaus DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Trocknen", "Einfrieren"], "gerichte": ["Schmorgerichte", "Suppen", "Ratatouille"], "verarbeitung": "Blättchen abstreifen, ganze Zweige in Bouquet garni"}
+    ]
+  },
+
+  "februar": {
+    "monat": "Februar",
+    "wetter": "Noch kalt. Gewächshaus-Kräuter.",
+    "kraeuter": [
+      {"name": "Rosmarin (Gewächshaus)", "hochsaison": false, "lat": "Rosmarinus officinalis", "familie": "Lamiaceae", "herkunft": "Gewächshaus DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "2-3", "konservierung": ["Trocknen", "Einfrieren", "Öl"], "gerichte": ["Bratkartoffeln", "Lammgerichte", "Focaccia"], "verarbeitung": "Nadeln abzupfen, ganze Zweige mitgaren"},
+      {"name": "Thymian (Gewächshaus)", "hochsaison": false, "lat": "Thymus vulgaris", "familie": "Lamiaceae", "herkunft": "Gewächshaus DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Trocknen", "Einfrieren"], "gerichte": ["Schmorgerichte", "Suppen"], "verarbeitung": "Blättchen abstreifen"}
+    ]
+  },
+
+  "maerz": {
+    "monat": "März",
+    "wetter": "Frühling startet. Erste Freiland-Kräuter.",
+    "kraeuter": [
+      {"name": "Bärlauch (Freiland)", "hochsaison": true, "lat": "Allium ursinum", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "3-5 Tage", "konservierung": ["Pesto", "Einfrieren"], "gerichte": ["Bärlauchpesto", "Bärlauchsuppe", "Bärlauchbutter"], "verarbeitung": "Waschen, trocken tupfen, fein schneiden oder pürieren"},
+      {"name": "Schnittlauch (Freiland-Start)", "hochsaison": true, "lat": "Allium schoenoprasum", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1 Woche", "konservierung": ["Einfrieren", "Trocknen"], "gerichte": ["Kräuterquark", "Eierspeisen", "Suppen"], "verarbeitung": "In feine Röllchen schneiden, erst kurz vor Servieren zugeben"}
+    ]
+  },
+
+  "april": {
+    "monat": "April",
+    "wetter": "Frühling! Bärlauch-Hochsaison.",
+    "kraeuter": [
+      {"name": "Bärlauch (Hochsaison)", "hochsaison": true, "lat": "Allium ursinum", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "3-5 Tage", "konservierung": ["Pesto", "Einfrieren"], "gerichte": ["Bärlauchpesto", "Bärlauchsuppe", "Bärlauchbutter", "Bärlauch-Gnocchi"], "verarbeitung": "Waschen, trocken tupfen, fein schneiden"},
+      {"name": "Petersilie (Freiland-Start)", "hochsaison": true, "lat": "Petroselinum crispum", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Einfrieren", "Trocknen"], "gerichte": ["Petersilienkartoffeln", "Taboulé", "Kräuterbutter"], "verarbeitung": "Waschen, trocken schleudern, fein hacken"},
+      {"name": "Schnittlauch (Hochsaison)", "hochsaison": true, "lat": "Allium schoenoprasum", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1 Woche", "konservierung": ["Einfrieren"], "gerichte": ["Kräuterquark", "Eierspeisen"], "verarbeitung": "In feine Röllchen schneiden"}
+    ]
+  },
+
+  "mai": {
+    "monat": "Mai",
+    "wetter": "Frühsommer. Viele Kräuter starten.",
+    "kraeuter": [
+      {"name": "Basilikum (Freiland-Start)", "hochsaison": true, "lat": "Ocimum basilicum", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-12", "haltbar_wo": "3-5 Tage", "konservierung": ["Pesto", "Öl", "Einfrieren"], "gerichte": ["Caprese", "Pesto Genovese", "Tomatensuppe"], "verarbeitung": "NICHT schneiden (oxidiert), Blätter zupfen oder reißen"},
+      {"name": "Petersilie (Hochsaison)", "hochsaison": true, "lat": "Petroselinum crispum", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Einfrieren", "Trocknen"], "gerichte": ["Petersilienkartoffeln", "Taboulé"], "verarbeitung": "Fein hacken, erst kurz vor Servieren zugeben"},
+      {"name": "Schnittlauch (Hochsaison)", "hochsaison": true, "lat": "Allium schoenoprasum", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1 Woche", "konservierung": ["Einfrieren"], "gerichte": ["Kräuterquark", "Eierspeisen"], "verarbeitung": "In feine Röllchen schneiden"},
+      {"name": "Dill (Freiland-Start)", "hochsaison": true, "lat": "Anethum graveolens", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1 Woche", "konservierung": ["Einfrieren", "Einlegen"], "gerichte": ["Gurkensalat", "Fischgerichte", "Kartoffelsalat"], "verarbeitung": "Feine Spitzen abzupfen, nicht mitkochen"}
+    ]
+  },
+
+  "juni": {
+    "monat": "Juni",
+    "wetter": "Sommer! Kräuter-Hochsaison.",
+    "kraeuter": [
+      {"name": "Basilikum (Hochsaison)", "hochsaison": true, "lat": "Ocimum basilicum", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-12", "haltbar_wo": "3-5 Tage", "konservierung": ["Pesto", "Öl"], "gerichte": ["Caprese", "Pesto Genovese", "Pizza Margherita"], "verarbeitung": "Blätter zupfen, nicht schneiden"},
+      {"name": "Petersilie (Hochsaison)", "hochsaison": true, "lat": "Petroselinum crispum", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Einfrieren"], "gerichte": ["Petersilienkartoffeln", "Taboulé"], "verarbeitung": "Fein hacken"},
+      {"name": "Dill (Hochsaison)", "hochsaison": true, "lat": "Anethum graveolens", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1 Woche", "konservierung": ["Einfrieren"], "gerichte": ["Gurkensalat", "Fischgerichte"], "verarbeitung": "Feine Spitzen abzupfen"},
+      {"name": "Minze (Hochsaison)", "hochsaison": true, "lat": "Mentha", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1 Woche", "konservierung": ["Trocknen", "Sirup"], "gerichte": ["Minztee", "Taboulé", "Desserts"], "verarbeitung": "Blätter zupfen, ganze Zweige für Tee"},
+      {"name": "Oregano (Hochsaison)", "hochsaison": true, "lat": "Origanum vulgare", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Trocknen", "Öl"], "gerichte": ["Pizza", "Tomatensoße", "Griechischer Salat"], "verarbeitung": "Blättchen abstreifen, getrocknet intensiver"}
+    ]
+  },
+
+  "juli": {
+    "monat": "Juli",
+    "wetter": "Hochsommer. Alle Kräuter verfügbar.",
+    "kraeuter": [
+      {"name": "Basilikum (Hochsaison)", "hochsaison": true, "lat": "Ocimum basilicum", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-12", "haltbar_wo": "3-5 Tage", "konservierung": ["Pesto", "Öl"], "gerichte": ["Caprese", "Pesto", "Tomatengerichte"], "verarbeitung": "Blätter zupfen"},
+      {"name": "Rosmarin (Freiland-Hochsaison)", "hochsaison": true, "lat": "Rosmarinus officinalis", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "2-3", "konservierung": ["Trocknen", "Öl"], "gerichte": ["Bratkartoffeln", "Lammgerichte"], "verarbeitung": "Nadeln abzupfen"},
+      {"name": "Thymian (Freiland-Hochsaison)", "hochsaison": true, "lat": "Thymus vulgaris", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Trocknen"], "gerichte": ["Schmorgerichte", "Suppen"], "verarbeitung": "Blättchen abstreifen"},
+      {"name": "Salbei (Hochsaison)", "hochsaison": true, "lat": "Salvia officinalis", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1 Woche", "konservierung": ["Trocknen", "Öl"], "gerichte": ["Saltimbocca", "Salbei-Butter", "Tee"], "verarbeitung": "Ganze Blätter verwenden, in Butter braten"}
+    ]
+  },
+
+  "august": {
+    "monat": "August",
+    "wetter": "Spätsommer. Kräuter-Hochsaison.",
+    "kraeuter": [
+      {"name": "Basilikum (Hochsaison)", "hochsaison": true, "lat": "Ocimum basilicum", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-12", "haltbar_wo": "3-5 Tage", "konservierung": ["Pesto", "Öl"], "gerichte": ["Caprese", "Pesto"], "verarbeitung": "Blätter zupfen"},
+      {"name": "Petersilie (Hochsaison)", "hochsaison": true, "lat": "Petroselinum crispum", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Einfrieren"], "gerichte": ["Petersilienkartoffeln"], "verarbeitung": "Fein hacken"},
+      {"name": "Oregano (Hochsaison)", "hochsaison": true, "lat": "Origanum vulgare", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Trocknen"], "gerichte": ["Pizza", "Tomatensoße"], "verarbeitung": "Blättchen abstreifen"}
+    ]
+  },
+
+  "september": {
+    "monat": "September",
+    "wetter": "Herbst. Letzte Freiland-Kräuter.",
+    "kraeuter": [
+      {"name": "Basilikum (Ende Saison)", "hochsaison": false, "lat": "Ocimum basilicum", "familie": "Lamiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-12", "haltbar_wo": "3-5 Tage", "konservierung": ["Pesto", "Öl"], "gerichte": ["Caprese", "Pesto"], "verarbeitung": "Blätter zupfen"},
+      {"name": "Petersilie (Hochsaison)", "hochsaison": true, "lat": "Petroselinum crispum", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Einfrieren"], "gerichte": ["Petersilienkartoffeln"], "verarbeitung": "Fein hacken"},
+      {"name": "Schnittlauch (Hochsaison)", "hochsaison": true, "lat": "Allium schoenoprasum", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1 Woche", "konservierung": ["Einfrieren"], "gerichte": ["Kräuterquark"], "verarbeitung": "In Röllchen schneiden"}
+    ]
+  },
+
+  "oktober": {
+    "monat": "Oktober",
+    "wetter": "Herbst. Gewächshaus-Kräuter.",
+    "kraeuter": [
+      {"name": "Petersilie (Freiland)", "hochsaison": true, "lat": "Petroselinum crispum", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Einfrieren"], "gerichte": ["Petersilienkartoffeln"], "verarbeitung": "Fein hacken"},
+      {"name": "Rosmarin (Gewächshaus)", "hochsaison": false, "lat": "Rosmarinus officinalis", "familie": "Lamiaceae", "herkunft": "Gewächshaus", "lagerung_c": "2-5", "haltbar_wo": "2-3", "konservierung": ["Trocknen", "Öl"], "gerichte": ["Bratkartoffeln"], "verarbeitung": "Nadeln abzupfen"}
+    ]
+  },
+
+  "november": {
+    "monat": "November",
+    "wetter": "Kalt. Gewächshaus-Kräuter.",
+    "kraeuter": [
+      {"name": "Rosmarin (Gewächshaus)", "hochsaison": false, "lat": "Rosmarinus officinalis", "familie": "Lamiaceae", "herkunft": "Gewächshaus", "lagerung_c": "2-5", "haltbar_wo": "2-3", "konservierung": ["Trocknen", "Öl"], "gerichte": ["Bratkartoffeln", "Lammgerichte"], "verarbeitung": "Nadeln abzupfen"},
+      {"name": "Thymian (Gewächshaus)", "hochsaison": false, "lat": "Thymus vulgaris", "familie": "Lamiaceae", "herkunft": "Gewächshaus", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Trocknen"], "gerichte": ["Schmorgerichte"], "verarbeitung": "Blättchen abstreifen"}
+    ]
+  },
+
+  "dezember": {
+    "monat": "Dezember",
+    "wetter": "Winter. Gewächshaus-Kräuter.",
+    "kraeuter": [
+      {"name": "Rosmarin (Gewächshaus)", "hochsaison": false, "lat": "Rosmarinus officinalis", "familie": "Lamiaceae", "herkunft": "Gewächshaus", "lagerung_c": "2-5", "haltbar_wo": "2-3", "konservierung": ["Trocknen", "Öl"], "gerichte": ["Bratkartoffeln", "Weihnachtsbraten"], "verarbeitung": "Nadeln abzupfen"},
+      {"name": "Thymian (Gewächshaus)", "hochsaison": false, "lat": "Thymus vulgaris", "familie": "Lamiaceae", "herkunft": "Gewächshaus", "lagerung_c": "2-5", "haltbar_wo": "1-2", "konservierung": ["Trocknen"], "gerichte": ["Schmorgerichte", "Suppen"], "verarbeitung": "Blättchen abstreifen"}
+    ]
+  }
+}

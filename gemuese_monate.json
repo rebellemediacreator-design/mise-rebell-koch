@@ -1,0 +1,145 @@
+{
+  "region": "DACH (Deutschland, Österreich, Schweiz)",
+  "kategorie": "GEMÜSE",
+  "titel": "🥬 GEMÜSE - Saisonkalender nach Monaten sortiert",
+  "version": "1.0_gemuese_monatlich",
+  "beschreibung": "Alle Gemüsesorten sortiert nach 12 Monaten. Hochsaison-Flag, lat. Name, Familie, Herkunft, Lagerung, Konservierung, Gerichte, Verarbeitung.",
+  
+  "januar": {
+    "monat": "Januar",
+    "wetter": "Kalt, trocken. Lagerware, Wurzelgemüse.",
+    "gemuese": [
+      {"name": "Kartoffel (Lagerware)", "hochsaison": true, "lat": "Solanum tuberosum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-6", "haltbar_wo": "8-20", "konservierung": ["Tiefgefrieren", "Trocknen", "Fermentieren"], "gerichte": ["Kartoffelsalat", "Pellkartoffeln", "Kartoffelsuppe", "Kartoffelgratin"], "verarbeitung": "Waschen, schälen, Augen entfernen, variabel schneiden (Brunoise, Scheiben, Stifte)"},
+      {"name": "Karotte/Möhre (Lagerware)", "hochsaison": true, "lat": "Daucus carota subsp. sativus", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "8-16", "konservierung": ["Fermentieren", "Einkochen", "Tiefgefrieren", "Trocknen"], "gerichte": ["Möhrengemüse", "Karottensuppe", "Glasierte Möhren", "Rohkostsalat"], "verarbeitung": "Neue: nur bürsten. Ältere: schälen. Julienne, Scheiben, Brunoise schneiden."},
+      {"name": "Zwiebel (Lagerware)", "hochsaison": true, "lat": "Allium cepa", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-10", "haltbar_wo": "12-24", "konservierung": ["Trocknen", "Einlegen-Essig", "Tiefgefrieren"], "gerichte": ["Zwiebelsuppe", "Röstzwiebeln", "Saucen-Basis", "Zwiebelkuchen"], "verarbeitung": "Wurzelansatz zuletzt entfernen, Mirepoix schneiden, nicht zu dunkel anrösten"},
+      {"name": "Rote Bete (Lagerware)", "hochsaison": true, "lat": "Beta vulgaris", "familie": "Amaranthaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "12-16", "konservierung": ["Einlegen", "Fermentieren", "Tiefgefrieren"], "gerichte": ["Rote-Bete-Salat", "Rote-Bete-Suppe", "Borschtsch", "Eingelegte RB"], "verarbeitung": "NICHT vor Garen schälen (Ausblutung), nach Garen schälen, würfeln"},
+      {"name": "Grünkohl (Hochsaison bis März)", "hochsaison": true, "lat": "Brassica oleracea var. sabellica", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2", "konservierung": ["Tiefgefrieren", "Blanchieren"], "gerichte": ["Grünkohleintopf", "Grünkohl mit Kartoffeln", "Chips"], "verarbeitung": "3x waschen (Erde!), grobe Stiele entfernen, sehr fein schneiden"},
+      {"name": "Rosenkohl (Hochsaison Winter)", "hochsaison": true, "lat": "Brassica oleracea var. gemmifera", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "2-3", "konservierung": ["Tiefgefrieren", "Blanchieren"], "gerichte": ["Rosenkohl sautiert", "Rosenkohl-Gratin", "Rosenkohl mit Speck"], "verarbeitung": "Waschen, welke Außenblätter entfernen, Stielende kürzen, ggf. halbieren"},
+      {"name": "Lauch/Porree (Hochsaison Winter)", "hochsaison": true, "lat": "Allium porrum", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "2-4", "konservierung": ["Tiefgefrieren", "Einkochen"], "gerichte": ["Lauchsuppe", "Lauch-Quiche", "Lauch-Auflauf"], "verarbeitung": "Gründlich waschen (Erde zwischen Schichten!), in Rondellen schneiden"},
+      {"name": "Feldsalat (Hochsaison Winter)", "hochsaison": true, "lat": "Valerianella locusta", "familie": "Caprifoliaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": [], "gerichte": ["Feldsalat mit Kartoffeldressing", "Wintersalat", "mit Speck"], "verarbeitung": "Wurzelende abschneiden, Rosetten auseinander zupfen, 2x waschen, zentrifugieren"}
+    ]
+  },
+
+  "februar": {
+    "monat": "Februar",
+    "wetter": "Noch kalt. Letzte Hochsaison Wintergemüse.",
+    "gemuese": [
+      {"name": "Kartoffel (Lagerware)", "hochsaison": true, "lat": "Solanum tuberosum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-6", "haltbar_wo": "8-20", "konservierung": ["Tiefgefrieren", "Trocknen"], "gerichte": ["Kartoffelsalat", "Pellkartoffeln", "Kartoffelsuppe"], "verarbeitung": "Waschen, schälen, Augen entfernen, variabel schneiden"},
+      {"name": "Karotte/Möhre (Lagerware)", "hochsaison": true, "lat": "Daucus carota", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "8-16", "konservierung": ["Fermentieren", "Einkochen", "Tiefgefrieren"], "gerichte": ["Möhrengemüse", "Karottensuppe", "Glasierte Möhren", "Rohkostsalat"], "verarbeitung": "Waschen, bürsten oder schälen, schneiden in Brunoise/Julienne/Scheiben"},
+      {"name": "Zwiebel (Lagerware)", "hochsaison": true, "lat": "Allium cepa", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-10", "haltbar_wo": "12-24", "konservierung": ["Trocknen", "Einlegen_essig", "Tiefgefrieren"], "gerichte": ["Zwiebelsuppe", "Grund zu Suppen/Saucen", "Röstzwiebeln"], "verarbeitung": "Wurzelansatz zuletzt entfernen, gleichmäßige Würfel (Brunoise/Mirepoix)"},
+      {"name": "Grünkohl (Hochsaison bis März)", "hochsaison": true, "lat": "Brassica oleracea var. sabellica", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2", "konservierung": ["Tiefgefrieren", "Blanchieren"], "gerichte": ["Grünkohleintopf", "Grünkohl mit Kartoffeln"], "verarbeitung": "3x waschen, grobe Stiele entfernen, fein schneiden"},
+      {"name": "Feldsalat (Hochsaison)", "hochsaison": true, "lat": "Valerianella locusta", "familie": "Caprifoliaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": [], "gerichte": ["Feldsalat mit Kartoffeldressing", "Wintersalat"], "verarbeitung": "Wurzelende abschneiden, Rosetten auseinander zupfen, mehrfach waschen, zentrifugieren"}
+    ]
+  },
+
+  "maerz": {
+    "monat": "März",
+    "wetter": "Frühling! Spinat startet.",
+    "gemuese": [
+      {"name": "Spinat (Freiland ab März)", "hochsaison": true, "lat": "Spinacia oleracea", "familie": "Amaranthaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": ["Tiefgefrieren", "püriert einfrieren"], "gerichte": ["Rahmspinat", "Spinat-Lasagne", "Spinatknödel"], "verarbeitung": "3x in kaltem Wasser waschen (Sand!), grobe Stiele entfernen, sehr kurz blanchieren"},
+      {"name": "Feldsalat (Hochsaison endet März)", "hochsaison": false, "lat": "Valerianella locusta", "familie": "Caprifoliaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": [], "gerichte": ["Feldsalat mit Kartoffeldressing"], "verarbeitung": "Wurzelende weg, mehrfach waschen, zentrifugieren"}
+    ]
+  },
+
+  "april": {
+    "monat": "April",
+    "wetter": "Frühling! Spargel-Hochsaison.",
+    "gemuese": [
+      {"name": "Spargel (Hochsaison April-Juni)", "hochsaison": true, "lat": "Asparagus officinalis", "familie": "Asparagaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "2-4 Tage", "konservierung": ["Tiefgefrieren", "Einkochen"], "gerichte": ["Spargel mit Butter/Sauce Béarnaise", "Spargelsuppe", "Spargel-Risotto"], "verarbeitung": "Waschen, holzige Enden kürzen, ggf. schälen, in Bündel binden zum Kochen"},
+      {"name": "Spinat (Hochsaison bis Mai)", "hochsaison": true, "lat": "Spinacia oleracea", "familie": "Amaranthaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": ["Tiefgefrieren"], "gerichte": ["Rahmspinat", "Spinat-Lasagne", "Blattspinat-Salat"], "verarbeitung": "3x waschen, grobe Stiele entfernen, sehr kurz blanchieren"},
+      {"name": "Kopfsalat / Eichblattsalat", "hochsaison": true, "lat": "Lactuca sativa", "familie": "Asteraceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "3-5 Tage", "konservierung": [], "gerichte": ["Grüner Salat mit Vinaigrette", "gemischte Salatplatten"], "verarbeitung": "Außenblätter entfernen, waschen, trocknen in Salatschleuder, kurz vor Dressing anmachen"}
+    ]
+  },
+
+  "mai": {
+    "monat": "Mai",
+    "wetter": "Spätes Frühjahr. Salate, Radieschen.",
+    "gemuese": [
+      {"name": "Spargel (Hochsaison bis Juni)", "hochsaison": true, "lat": "Asparagus officinalis", "familie": "Asparagaceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "2-4 Tage", "konservierung": ["Tiefgefrieren", "Einkochen"], "gerichte": ["Spargel mit Butter", "Spargelsuppe", "Spargel-Risotto"], "verarbeitung": "Waschen, holzige Enden kürzen, ggf. schälen, in Bündel binden"},
+      {"name": "Kopfsalat", "hochsaison": true, "lat": "Lactuca sativa", "familie": "Asteraceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "3-5 Tage", "konservierung": [], "gerichte": ["Grüner Salat", "gemischte Salatplatten"], "verarbeitung": "Außenblätter entfernen, waschen, zentrifugieren, kurz vor Dressing anmachen"},
+      {"name": "Radieschen", "hochsaison": true, "lat": "Raphanus raphanistrum subsp. sativus", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Wochen", "konservierung": ["Fermentieren", "Einlegen"], "gerichte": ["Radieschensalat", "Frühstücksteller", "gebutterte Radieschen"], "verarbeitung": "Waschen, eventuell schälen, ganz lassen oder dünn in Scheiben schneiden"}
+    ]
+  },
+
+  "juni": {
+    "monat": "Juni",
+    "wetter": "Sommer! Brokkoli, Blumenkohl, Zucchini.",
+    "gemuese": [
+      {"name": "Kopfsalat / Eichblattsalat", "hochsaison": true, "lat": "Lactuca sativa", "familie": "Asteraceae", "herkunft": "DE/AT/CH", "lagerung_c": "2-5", "haltbar_wo": "3-5 Tage", "konservierung": [], "gerichte": ["Grüner Salat", "Sommersalate"], "verarbeitung": "Außenblätter entfernen, waschen, zentrifugieren, vor Dressing anmachen"},
+      {"name": "Radieschen", "hochsaison": true, "lat": "Raphanus raphanistrum subsp. sativus", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Wochen", "konservierung": ["Fermentieren", "Einlegen"], "gerichte": ["Radieschensalat", "Frühstücksteller"], "verarbeitung": "Waschen, ganz oder in Scheiben"},
+      {"name": "Brokkoli (Hochsaison Juni-Juli)", "hochsaison": true, "lat": "Brassica oleracea var. italica", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-5", "haltbar_wo": "3-5 Tage", "konservierung": ["Tiefgefrieren nach Blanchieren", "Einkochen"], "gerichte": ["Brokkoli mit Buttersauce", "Brokkoli-Auflauf", "Brokkoli-Suppe"], "verarbeitung": "In Röschen teilen, Stiel schälen und mitverwenden"},
+      {"name": "Blumenkohl (Hochsaison Juni-Juli)", "hochsaison": true, "lat": "Brassica oleracea var. botrytis", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "5-7 Tage", "konservierung": ["Tiefgefrieren nach Blanchieren", "Einkochen"], "gerichte": ["Blumenkohl mit Butter", "Blumenkohl-Auflauf", "Blumenkohl-Suppe"], "verarbeitung": "In Röschen teilen, Strunk kreuzweise einschneiden"},
+      {"name": "Zucchini (Hochsaison ab Juni)", "hochsaison": true, "lat": "Cucurbita pepo", "familie": "Cucurbitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-10", "haltbar_wo": "5-10 Tage", "konservierung": ["Einlegen", "Tiefgefrieren", "Fermentieren"], "gerichte": ["Ratatouille", "gegrillte Zucchini", "Zucchini-Puffer", "Zoodles"], "verarbeitung": "In Scheiben/Stifte von gleicher Dicke schneiden"}
+    ]
+  },
+
+  "juli": {
+    "monat": "Juli",
+    "wetter": "Hochsommer! Tomaten, Paprika, Gurken - PEAK SAISON.",
+    "gemuese": [
+      {"name": "Zucchini", "hochsaison": true, "lat": "Cucurbita pepo", "familie": "Cucurbitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-10", "haltbar_wo": "5-10 Tage", "konservierung": ["Einlegen", "Tiefgefrieren"], "gerichte": ["Ratatouille", "gegrillte Zucchini", "Zucchini-Puffer", "Zoodles"], "verarbeitung": "Scheiben/Stifte von gleicher Dicke"},
+      {"name": "Paprika (Hochsaison Juli-September)", "hochsaison": true, "lat": "Capsicum annuum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-10", "haltbar_wo": "5-10 Tage", "konservierung": ["Grillen/Einlegen", "Tiefgefrieren"], "gerichte": ["Gefüllte Paprika", "Ratatouille", "Letscho", "Paprikahähnchen"], "verarbeitung": "Stiel, Kerngehäuse, weiße Scheidewände entfernen"},
+      {"name": "Tomate (Hochsaison Juli-September)", "hochsaison": true, "lat": "Solanum lycopersicum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "12-18", "haltbar_wo": "3-7 Tage", "konservierung": ["Einkochen", "Trocknen", "Fermentieren", "Tiefgefrieren"], "gerichte": ["Tomatensuppe", "Tomatensauce", "Bruschetta", "Caprese", "Ratatouille"], "verarbeitung": "Kreuzweise einschneiden, kurz blanchieren, häuten; Stielansatz entfernen"},
+      {"name": "Gurke (Hochsaison bis September)", "hochsaison": true, "lat": "Cucumis sativus", "familie": "Cucurbitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "10-13", "haltbar_wo": "5-7 Tage", "konservierung": ["Einlegen", "Fermentieren"], "gerichte": ["Gurkensalat", "Tzatziki", "kalte Gurkensuppe", "Essiggurken"], "verarbeitung": "Endstücke abschneiden, evtl. bittere Stellen entfernen, bei Wasserproblemen salzen"},
+      {"name": "Brokkoli", "hochsaison": true, "lat": "Brassica oleracea var. italica", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-5", "haltbar_wo": "3-5 Tage", "konservierung": ["Tiefgefrieren nach Blanchieren"], "gerichte": ["Brokkoli mit Buttersauce", "Brokkoli-Auflauf", "Brokkoli-Suppe"], "verarbeitung": "In Röschen teilen, Stiel schälen und mitverwenden"}
+    ]
+  },
+
+  "august": {
+    "monat": "August",
+    "wetter": "Spätsommer. Paprika, Tomate, Aubergine.",
+    "gemuese": [
+      {"name": "Paprika (Hochsaison bis September)", "hochsaison": true, "lat": "Capsicum annuum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-10", "haltbar_wo": "5-10 Tage", "konservierung": ["Grillen/Einlegen", "Tiefgefrieren"], "gerichte": ["Gefüllte Paprika", "Ratatouille", "Letscho"], "verarbeitung": "Stiel, Kerngehäuse, weiße Scheidewände entfernen"},
+      {"name": "Tomate (Hochsaison bis September)", "hochsaison": true, "lat": "Solanum lycopersicum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "12-18", "haltbar_wo": "3-7 Tage", "konservierung": ["Einkochen", "Trocknen", "Fermentieren"], "gerichte": ["Tomatensuppe", "Tomatensauce", "Bruschetta", "Caprese"], "verarbeitung": "Kreuzweise einschneiden, blanchieren, häuten"},
+      {"name": "Aubergine (Hochsaison August-September)", "hochsaison": true, "lat": "Solanum melongena", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-12", "haltbar_wo": "5-10 Tage", "konservierung": ["Grillen/Einlegen", "Tiefgefrieren"], "gerichte": ["Ratatouille", "gegrillte Aubergine", "Auberginen-Pürée (Baba Ganoush)"], "verarbeitung": "Längshalbieren oder in Scheiben schneiden, evtl. vor Garen salzen"},
+      {"name": "Kartoffel (neue Ernte ab August)", "hochsaison": true, "lat": "Solanum tuberosum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-6", "haltbar_wo": "kurz", "konservierung": ["Tiefgefrieren"], "gerichte": ["Pellkartoffeln", "Kartoffelsalat", "Kartoffelsuppe"], "verarbeitung": "NEUE Kartoffeln: nur bürsten, nicht schälen!"}
+    ]
+  },
+
+  "september": {
+    "monat": "September",
+    "wetter": "Frühherbst. Kürbis, Feldsalat starten.",
+    "gemuese": [
+      {"name": "Paprika (Hochsaison endet)", "hochsaison": true, "lat": "Capsicum annuum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-10", "haltbar_wo": "5-10 Tage", "konservierung": ["Grillen/Einlegen"], "gerichte": ["Gefüllte Paprika", "Ratatouille"], "verarbeitung": "Stiel, Kerngehäuse weg"},
+      {"name": "Tomate (Hochsaison endet)", "hochsaison": true, "lat": "Solanum lycopersicum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "12-18", "haltbar_wo": "3-7 Tage", "konservierung": ["Einkochen", "Trocknen"], "gerichte": ["Tomatensuppe", "Tomatensauce", "Bruschetta"], "verarbeitung": "Blanchieren, häuten"},
+      {"name": "Gurke (Hochsaison endet)", "hochsaison": true, "lat": "Cucumis sativus", "familie": "Cucurbitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "10-13", "haltbar_wo": "5-7 Tage", "konservierung": ["Einlegen", "Fermentieren"], "gerichte": ["Gurkensalat", "Tzatziki", "kalte Gurkensuppe"], "verarbeitung": "Endstücke abschneiden, bittere Stellen entfernen"},
+      {"name": "Zucchini (Hochsaison endet)", "hochsaison": true, "lat": "Cucurbita pepo", "familie": "Cucurbitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "8-10", "haltbar_wo": "5-10 Tage", "konservierung": ["Einlegen", "Tiefgefrieren"], "gerichte": ["Ratatouille", "gegrillte Zucchini", "Zucchini-Puffer"], "verarbeitung": "Scheiben/Stifte schneiden"},
+      {"name": "Möhre (neue Ernte Sept-Okt)", "hochsaison": true, "lat": "Daucus carota subsp. sativus", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "8-16 Wochen", "konservierung": ["Fermentieren", "Einkochen", "Tiefgefrieren"], "gerichte": ["Möhrengemüse", "Karottensuppe", "Rohkostsalat"], "verarbeitung": "NEUE Möhren: nur bürsten, nicht schälen"},
+      {"name": "Kürbis (Hochsaison Sept-Okt)", "hochsaison": true, "lat": "Cucurbita maxima / moschata / pepo", "familie": "Cucurbitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "10-15", "haltbar_wo": "8-20 Wochen", "konservierung": ["Einkochen", "Einlegen", "Tiefgefrieren"], "gerichte": ["Kürbissuppe", "Ofenkürbis", "Kürbisrisotto", "Kürbiskuchen"], "verarbeitung": "Mit Messer teilen, Kerne und Fasern entfernen, Hokkaido kann mit Schale"},
+      {"name": "Feldsalat (Hochsaison-Start September)", "hochsaison": true, "lat": "Valerianella locusta", "familie": "Caprifoliaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": [], "gerichte": ["Feldsalat mit Kartoffeldressing", "Wintersalat"], "verarbeitung": "Wurzelende abschneiden, Rosetten auseinander, mehrfach waschen, zentrifugieren"}
+    ]
+  },
+
+  "oktober": {
+    "monat": "Oktober",
+    "wetter": "Herbst. Neue Kartoffeln, Zwiebeln, Kürbis.",
+    "gemuese": [
+      {"name": "Kürbis (Hochsaison bis Oktober)", "hochsaison": true, "lat": "Cucurbita maxima / moschata / pepo", "familie": "Cucurbitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "10-15", "haltbar_wo": "8-20 Wochen", "konservierung": ["Einkochen", "Einlegen"], "gerichte": ["Kürbissuppe", "Ofenkürbis", "Kürbisrisotto", "Kürbiskuchen"], "verarbeitung": "Mit Messer teilen, Kerne entfernen"},
+      {"name": "Möhre (neue Ernte Lagerware)", "hochsaison": true, "lat": "Daucus carota", "familie": "Apiaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "8-16 Wochen", "konservierung": ["Fermentieren", "Einkochen"], "gerichte": ["Möhrengemüse", "Karottensuppe", "Rohkostsalat"], "verarbeitung": "NEUE Möhren: nur bürsten"},
+      {"name": "Kartoffel (neue Ernte Lagerware)", "hochsaison": true, "lat": "Solanum tuberosum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-6", "haltbar_wo": "8-20 Wochen", "konservierung": ["Tiefgefrieren", "Trocknen"], "gerichte": ["Kartoffelsalat", "Kartoffelsuppe", "Pellkartoffeln"], "verarbeitung": "NEUE: bürsten, ÄLTERE: schälen"},
+      {"name": "Zwiebel (neue Ernte Lagerware)", "hochsaison": true, "lat": "Allium cepa", "familie": "Amaryllidaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-10", "haltbar_wo": "12-24 Wochen", "konservierung": ["Trocknen", "Einlegen"], "gerichte": ["Zwiebelsuppe", "Grundlage zu Suppen/Saucen"], "verarbeitung": "Wurzelansatz zuletzt entfernen, Mirepoix schneiden"},
+      {"name": "Feldsalat (Hochsaison-Start)", "hochsaison": true, "lat": "Valerianella locusta", "familie": "Caprifoliaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": [], "gerichte": ["Feldsalat mit Kartoffeldressing", "Wintersalat"], "verarbeitung": "Wurzelende weg, mehrfach waschen, zentrifugieren"}
+    ]
+  },
+
+  "november": {
+    "monat": "November",
+    "wetter": "Herbst endet. Lagerware optimal.",
+    "gemuese": [
+      {"name": "Kartoffel (Lagerware)", "hochsaison": true, "lat": "Solanum tuberosum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-6", "haltbar_wo": "8-20 Wochen", "konservierung": ["Tiefgefrieren"], "gerichte": ["Kartoffelsalat", "Kartoffelsuppe"], "verarbeitung": "Waschen, schälen, Augen entfernen"},
+      {"name": "Kürbis (Lagerware)", "hochsaison": true, "lat": "Cucurbita maxima / moschata", "familie": "Cucurbitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "10-15", "haltbar_wo": "bis Februar", "konservierung": ["Einkochen", "Einlegen"], "gerichte": ["Kürbissuppe", "Ofenkürbis"], "verarbeitung": "Mit Messer teilen, Kerne entfernen"},
+      {"name": "Feldsalat (Hochsaison)", "hochsaison": true, "lat": "Valerianella locusta", "familie": "Caprifoliaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": [], "gerichte": ["Feldsalat mit Kartoffeldressing", "Wintersalat"], "verarbeitung": "Mehrfach waschen, zentrifugieren"},
+      {"name": "Grünkohl (Hochsaison bis März)", "hochsaison": true, "lat": "Brassica oleracea var. sabellica", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Wochen", "konservierung": ["Tiefgefrieren"], "gerichte": ["Grünkohleintopf", "Grünkohl mit Kartoffeln"], "verarbeitung": "3x waschen, Stiele weg, fein schneiden"}
+    ]
+  },
+
+  "dezember": {
+    "monat": "Dezember",
+    "wetter": "Winter! Weihnachten. Lagerware.",
+    "gemuese": [
+      {"name": "Kartoffel (Lagerware)", "hochsaison": true, "lat": "Solanum tuberosum", "familie": "Solanaceae", "herkunft": "DE/AT/CH", "lagerung_c": "4-6", "haltbar_wo": "8-20 Wochen", "konservierung": ["Tiefgefrieren"], "gerichte": ["Pellkartoffeln", "Kartoffelsalat"], "verarbeitung": "Waschen, schälen, Augen entfernen"},
+      {"name": "Feldsalat (Hochsaison)", "hochsaison": true, "lat": "Valerianella locusta", "familie": "Caprifoliaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Tage", "konservierung": [], "gerichte": ["Feldsalat mit Kartoffeldressing", "Wintersalat"], "verarbeitung": "Wurzelende weg, mehrfach waschen, gut trocknen"},
+      {"name": "Grünkohl (Hochsaison)", "hochsaison": true, "lat": "Brassica oleracea var. sabellica", "familie": "Brassicaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Wochen", "konservierung": ["Tiefgefrieren"], "gerichte": ["Grünkohleintopf", "Weihnachtliches Grünkohl"], "verarbeitung": "3x waschen, Stiele entfernen, fein schneiden"}
+    ]
+  }
+}

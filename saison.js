@@ -1,18 +1,23 @@
 // ============================================================================
-//  SAISON-KALENDER: Obst, Gemüse, Kräuter (DACH-Region)
+//  SAISON-KALENDER: Obst & Gemüse (DACH-Region)
 // ============================================================================
 
 (function() {
   'use strict';
 
-  let obstData = [];
-  let gemueseData = [];
-  let kraeuterData = [];
+  let gemueseData = null;
+  let obstData = null;
+  let kraeuterData = null;
   let currentMonth = new Date().getMonth() + 1; // 1-12
-  let currentCategory = 'obst';
+  let currentCategory = 'gemuese'; // gemuese, obst, kraeuter
+
+  const monthKeys = [
+    'januar', 'februar', 'maerz', 'april', 'mai', 'juni',
+    'juli', 'august', 'september', 'oktober', 'november', 'dezember'
+  ];
 
   const monthNames = [
-    'Januar', 'Februar', 'Maerz', 'April', 'Mai', 'Juni',
+    'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
     'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'
   ];
 
@@ -22,24 +27,26 @@
   
   const loadData = async () => {
     try {
-      const [obstResp, gemueseResp, kraeuterResp] = await Promise.all([
-        fetch('obst_saison_dach.json'),
-        fetch('gemuese_saison_dach.json'),
-        fetch('kraeuter_saison_dach.json')
+      console.log('[Saison] Lade Daten...');
+      
+      const [gemueseResp, obstResp, kraeuterResp] = await Promise.all([
+        fetch('gemuese_monate.json'),
+        fetch('obst_monate.json'),
+        fetch('kraeuter_monate.json')
       ]);
       
-      const obstJson = await obstResp.json();
-      const gemueseJson = await gemueseResp.json();
-      const kraeuterJson = await kraeuterResp.json();
+      if (!gemueseResp.ok || !obstResp.ok || !kraeuterResp.ok) {
+        throw new Error('Fehler beim Laden der Dateien');
+      }
       
-      obstData = obstJson.obst || [];
-      gemueseData = gemueseJson.gemuese || [];
-      kraeuterData = kraeuterJson.kraeuter || [];
+      gemueseData = await gemueseResp.json();
+      obstData = await obstResp.json();
+      kraeuterData = await kraeuterResp.json();
       
       console.log('[Saison] Daten geladen:', {
-        obst: obstData.length,
-        gemuese: gemueseData.length,
-        kraeuter: kraeuterData.length
+        gemuese: gemueseData ? 'OK' : 'FEHLER',
+        obst: obstData ? 'OK' : 'FEHLER',
+        kraeuter: kraeuterData ? 'OK' : 'FEHLER'
       });
       
       return true;
@@ -47,39 +54,6 @@
       console.error('[Saison] Fehler beim Laden:', e);
       return false;
     }
-  };
-
-  // ========================================================================
-  // HELPER: Check if item is in season
-  // ========================================================================
-  
-  const isInSeason = (item, month) => {
-    const monthName = monthNames[month - 1];
-    if (!item.saison_dach) return false;
-    
-    const { freiland, gewaechshaus, lagerware, topfware } = item.saison_dach;
-    const all = [
-      ...(freiland || []),
-      ...(gewaechshaus || []),
-      ...(lagerware || []),
-      ...(topfware || [])
-    ];
-    
-    return all.includes(monthName);
-  };
-
-  const getSeasonType = (item, month) => {
-    const monthName = monthNames[month - 1];
-    if (!item.saison_dach) return '';
-    
-    const { freiland, gewaechshaus, lagerware, topfware } = item.saison_dach;
-    
-    if (freiland && freiland.includes(monthName)) return '🌱 Freiland';
-    if (gewaechshaus && gewaechshaus.includes(monthName)) return '🏠 Gewächshaus';
-    if (topfware && topfware.includes(monthName)) return '🪴 Topfware';
-    if (lagerware && lagerware.includes(monthName)) return '📦 Lagerware';
-    
-    return '';
   };
 
   // ========================================================================
@@ -93,49 +67,67 @@
       return;
     }
 
-    let data = [];
-    if (currentCategory === 'obst') data = obstData;
-    else if (currentCategory === 'gemuese') data = gemueseData;
-    else if (currentCategory === 'kraeuter') data = kraeuterData;
-
+    const monthKey = monthKeys[currentMonth - 1];
+    const monthName = monthNames[currentMonth - 1];
+    
     console.log('[Saison] Render:', {
       category: currentCategory,
       month: currentMonth,
-      monthName: monthNames[currentMonth - 1],
-      totalItems: data.length
+      monthKey: monthKey,
+      monthName: monthName
     });
 
-    const filtered = data.filter(item => isInSeason(item, currentMonth));
+    let data;
+    if (currentCategory === 'gemuese') data = gemueseData;
+    else if (currentCategory === 'obst') data = obstData;
+    else if (currentCategory === 'kraeuter') data = kraeuterData;
     
-    console.log('[Saison] Gefiltert:', filtered.length, 'Einträge');
-    
-    if (filtered.length === 0) {
-      container.innerHTML = '<div class="saisonEmpty">Keine Einträge für ' + monthNames[currentMonth - 1] + '.</div>';
+    if (!data || !data[monthKey]) {
+      container.innerHTML = `<div class="saisonEmpty">Keine Daten für ${monthName} verfügbar.</div>`;
       return;
     }
 
-    const html = filtered.map(item => {
-      const seasonType = getSeasonType(item, currentMonth);
-      const bio = item.bio_hinweise?.sinnvoll_bio ? '🌿 Bio empfohlen' : '';
-      const lagerung = item.lagerung?.temperatur_celsius || 'k.A.';
-      const lagerdauer = item.lagerung?.lagerdauer || 'k.A.';
+    const monthData = data[monthKey];
+    let items;
+    if (currentCategory === 'gemuese') items = monthData.gemuese;
+    else if (currentCategory === 'obst') items = monthData.obst;
+    else if (currentCategory === 'kraeuter') items = monthData.kraeuter;
+    
+    if (!items || items.length === 0) {
+      container.innerHTML = `<div class="saisonEmpty">Keine Einträge für ${monthName}.</div>`;
+      return;
+    }
+
+    console.log('[Saison] Gefunden:', items.length, 'Einträge');
+
+    const html = items.map(item => {
+      const hochsaison = item.hochsaison ? '⭐ Hochsaison' : '';
+      const herkunft = item.herkunft || 'k.A.';
+      const lagerung = item.lagerung_c ? `${item.lagerung_c}°C` : 'k.A.';
+      const haltbar = item.haltbar_wo ? `${item.haltbar_wo} Wochen` : 'k.A.';
+      const gerichte = item.gerichte ? item.gerichte.slice(0, 3).join(', ') : '';
       
       return `
         <div class="saisonCard">
           <div class="saisonCard__header">
-            <div class="saisonCard__title">${escapeHtml(item.deutscher_name)}</div>
+            <div class="saisonCard__title">${escapeHtml(item.name)}</div>
             <div class="saisonCard__badges">
-              ${seasonType ? `<span class="badge badge--season">${seasonType}</span>` : ''}
-              ${bio ? `<span class="badge badge--bio">${bio}</span>` : ''}
+              ${hochsaison ? `<span class="badge badge--hochsaison">${hochsaison}</span>` : ''}
             </div>
           </div>
           <div class="saisonCard__meta">
-            <div><strong>Familie:</strong> ${escapeHtml(item.pflanzenfamilie || 'k.A.')}</div>
-            ${item.lagerung ? `<div><strong>Lagerung:</strong> ${lagerung}°C · ${lagerdauer}</div>` : ''}
+            <div><strong>Familie:</strong> ${escapeHtml(item.familie || 'k.A.')}</div>
+            <div><strong>Herkunft:</strong> ${escapeHtml(herkunft)}</div>
+            <div><strong>Lagerung:</strong> ${lagerung} · Haltbar: ${haltbar}</div>
           </div>
-          ${item.bio_hinweise?.gruende ? `
-            <div class="saisonCard__bio">
-              <strong>Bio-Hinweise:</strong> ${item.bio_hinweise.gruende.join(', ')}
+          ${gerichte ? `
+            <div class="saisonCard__gerichte">
+              <strong>Gerichte:</strong> ${escapeHtml(gerichte)}
+            </div>
+          ` : ''}
+          ${item.verarbeitung ? `
+            <div class="saisonCard__info">
+              <strong>Verarbeitung:</strong> ${escapeHtml(item.verarbeitung)}
             </div>
           ` : ''}
         </div>
@@ -197,7 +189,7 @@
     if (!success) {
       const container = document.getElementById('saisonContent');
       if (container) {
-        container.innerHTML = '<div class="saisonEmpty">Fehler beim Laden der Daten.</div>';
+        container.innerHTML = '<div class="saisonEmpty">❌ Fehler beim Laden der Daten. Bitte Konsole prüfen.</div>';
       }
       return;
     }
@@ -216,7 +208,7 @@
     updateCategoryButtons();
     render();
     
-    console.log('[Saison] Initialisierung abgeschlossen');
+    console.log('[Saison] ✅ Initialisierung abgeschlossen');
   };
 
   // Export
@@ -227,20 +219,13 @@
     render
   };
 
-  // Auto-init when DOM is ready and tab is clicked
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      console.log('[Saison] DOM ready, warte auf Tab-Klick');
-    });
-  }
-
-  // Listen for tab clicks
+  // Auto-init when tab is clicked
   document.addEventListener('click', (e) => {
     const tab = e.target.closest('[data-tab="saison"]');
     if (tab && !window.__SAISON_INITIALIZED__) {
-      console.log('[Saison] Tab geklickt, starte Init');
+      console.log('[Saison] 🌱 Tab geklickt, starte Init');
       window.__SAISON_INITIALIZED__ = true;
-      setTimeout(() => init(), 50);
+      setTimeout(() => init(), 100);
     }
   });
 

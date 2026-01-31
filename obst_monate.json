@@ -1,0 +1,119 @@
+{
+  "region": "DACH (Deutschland, Österreich, Schweiz)",
+  "kategorie": "OBST",
+  "titel": "🍎 OBST - Saisonkalender nach Monaten sortiert",
+  "version": "1.0_obst_monatlich",
+  "beschreibung": "Alle Obstsorten sortiert nach 12 Monaten. Hochsaison-Flag, lat. Name, Familie, Herkunft, Lagerung, Konservierung, Gerichte, Verarbeitung.",
+  
+  "januar": {
+    "monat": "Januar",
+    "wetter": "Kalt. Lagerware, Import-Südfrüchte.",
+    "obst": [
+      {"name": "Apfel (Lagerware)", "hochsaison": true, "lat": "Malus domestica", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "bis 30", "konservierung": ["Mus", "Kompott", "Saft", "Apfelwein"], "gerichte": ["Apfelstrudel", "Apfelkuchen", "Rotkohl mit Apfel", "Apfelmus"], "verarbeitung": "Mit Zitronensaft vor Oxidation schützen, Kerngehäuse mit Spezialstecher entfernen, würfeln"},
+      {"name": "Birne (Lagerware)", "hochsaison": true, "lat": "Pyrus communis", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "4-8", "konservierung": ["Kompott", "Birnenbrot", "Marmelade"], "gerichte": ["Birne Helene", "Birnenkompott", "Birnenkuchen", "Rotweinbirnen"], "verarbeitung": "Reife sehr empfindlich, Kerngehäuse ausstecheln, mit Zitrone schützen"},
+      {"name": "Zitrusfrüchte (Orangen, Mandarinen, Zitronen, Grapefruits)", "hochsaison": true, "lat": "Citrus sinensis / reticulata / limon / paradisi", "familie": "Rutaceae", "herkunft": "Import: Mittelmeerraum, Spanien, Italien, Marokko", "lagerung_c": "5-10", "haltbar_wo": "4-8", "konservierung": ["Saft", "Marmelade", "Kandierte Schale", "Zitronenöl"], "gerichte": ["Orangensaft", "Orangenmarmelade", "Zitronensauce", "Grapefruit-Müsli"], "verarbeitung": "Waschen, pressen oder Zest abreiben, Scheiben für Dekoration"}
+    ]
+  },
+
+  "februar": {
+    "monat": "Februar",
+    "wetter": "Noch kalt. Lagerware, Import-Zitrus.",
+    "obst": [
+      {"name": "Apfel (Lagerware)", "hochsaison": true, "lat": "Malus domestica", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "bis 30", "konservierung": ["Mus", "Kompott", "Saft"], "gerichte": ["Apfelkuchen", "Rotkohl mit Apfel", "Apfelmus"], "verarbeitung": "Mit Zitrone schützen, Kerngehäuse entfernen"},
+      {"name": "Zitrusfrüchte (Orangen, Mandarinen, Zitronen)", "hochsaison": true, "lat": "Citrus spp.", "familie": "Rutaceae", "herkunft": "Import: Mittelmeer", "lagerung_c": "5-10", "haltbar_wo": "4-8", "konservierung": ["Saft", "Marmelade"], "gerichte": ["Orangensaft", "Zitronensauce", "Marmelade"], "verarbeitung": "Waschen, pressen oder zest abreiben"}
+    ]
+  },
+
+  "maerz": {
+    "monat": "März",
+    "wetter": "Frühling! Rhabarber startet.",
+    "obst": [
+      {"name": "Rhabarber (Hochsaison März-Juni)", "hochsaison": true, "lat": "Rheum rhabarbarum", "familie": "Polygonaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-2", "haltbar_wo": "1-2", "konservierung": ["Kompott", "Marmelade", "Tiefgefrieren"], "gerichte": ["Rhabarberkuchen", "Rhabarberkompott", "Erdbeer-Rhabarber-Desserts"], "verarbeitung": "Stangen waschen, Blattansätze weg (GIFTIG!), nicht in Alu-Geschirr kochen"}
+    ]
+  },
+
+  "april": {
+    "monat": "April",
+    "wetter": "Frühling. Rhabarber, Erdbeeren starten.",
+    "obst": [
+      {"name": "Erdbeere (Freiland-Start)", "hochsaison": false, "lat": "Fragaria × ananassa", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-3 Tage", "konservierung": ["Marmelade", "Tiefgefrieren", "Coulis"], "gerichte": ["Erdbeerkuchen", "Erdbeer-Tiramisu", "Erdbeerpfannkuchen"], "verarbeitung": "NICHT vor Lagerung waschen! Erst vor Verwendung waschen, Kelch entfernen"},
+      {"name": "Rhabarber (Hochsaison April-Juni)", "hochsaison": true, "lat": "Rheum rhabarbarum", "familie": "Polygonaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-2", "haltbar_wo": "1-2", "konservierung": ["Kompott", "Marmelade", "Tiefgefrieren"], "gerichte": ["Rhabarberkuchen", "Rhabarberkompott"], "verarbeitung": "Blattansätze weg (GIFTIG!), in Stücke schneiden"}
+    ]
+  },
+
+  "mai": {
+    "monat": "Mai",
+    "wetter": "Spätes Frühjahr. Erdbeeren-Hochsaison-Start.",
+    "obst": [
+      {"name": "Erdbeere (Hochsaison-Start Ende Mai)", "hochsaison": false, "lat": "Fragaria × ananassa", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-3 Tage", "konservierung": ["Marmelade", "Tiefgefrieren"], "gerichte": ["Erdbeerkuchen", "Erdbeerpfannkuchen", "Erdbeer-Parfait"], "verarbeitung": "Nicht vor Lagerung waschen, Kelch entfernen"}
+    ]
+  },
+
+  "juni": {
+    "monat": "Juni",
+    "wetter": "Sommer! Beeren-Explosion, Erdbeeren, Kirschen.",
+    "obst": [
+      {"name": "Erdbeere (Hochsaison bis Juli)", "hochsaison": true, "lat": "Fragaria × ananassa", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-3 Tage", "konservierung": ["Marmelade", "Tiefgefrieren", "Konfitüre"], "gerichte": ["Erdbeerkuchen", "Erdbeer-Tiramisu", "Erdbeer-Eis"], "verarbeitung": "Nur kurz vor Verwendung waschen, Kelch abziehen"},
+      {"name": "Himbeere (Hochsaison Juli-August)", "hochsaison": false, "lat": "Rubus idaeus", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-2", "haltbar_wo": "1-3 Tage", "konservierung": ["Marmelade", "Coulis", "Tiefgefrieren"], "gerichte": ["Beerentarte", "Himbeer-Eis", "Himbeer-Grütze"], "verarbeitung": "Nicht waschen! Verlesen, mit Papier trocknen"},
+      {"name": "Kirsche (Hochsaison Juni-Juli)", "hochsaison": true, "lat": "Prunus avium / cerasus", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "2-5 Tage", "konservierung": ["Marmelade", "Tiefgefrieren", "Kirschlikör"], "gerichte": ["Schwarzwälder Kirschtorte", "Kirsch-Clafoutis", "Kirschmichel"], "verarbeitung": "Mit Stiel lagern (längere Haltung), vorsichtig entsteinen"}
+    ]
+  },
+
+  "juli": {
+    "monat": "Juli",
+    "wetter": "HOCHSOMMER! Peak-Beeren, Johannisbeeren, Heidelbeeren, Aprikosen.",
+    "obst": [
+      {"name": "Kirsche (Hochsaison bis Mitte Juli)", "hochsaison": true, "lat": "Prunus avium / cerasus", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "2-5 Tage", "konservierung": ["Marmelade", "Tiefgefrieren"], "gerichte": ["Schwarzwälder Kirschtorte", "Clafoutis"], "verarbeitung": "Mit Stiel lagern, vorsichtig entsteinen"},
+      {"name": "Johannisbeere (Hochsaison Juli-August)", "hochsaison": true, "lat": "Ribes rubrum / nigrum", "familie": "Grossulariaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-2", "haltbar_wo": "1-3 Tage", "konservierung": ["Gelee", "Saft", "Tiefgefrieren", "Sirup"], "gerichte": ["Johannisbeer-Gelee", "Cassis-Likör", "Beerentarte"], "verarbeitung": "Von Rispen abstreifen (vorsichtig), verlesen"},
+      {"name": "Himbeere (Hochsaison Juli-August)", "hochsaison": true, "lat": "Rubus idaeus", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-2", "haltbar_wo": "1-3 Tage", "konservierung": ["Marmelade", "Coulis", "Tiefgefrieren"], "gerichte": ["Beerentarte", "Eis", "Himbeer-Grütze"], "verarbeitung": "Nicht waschen! Verlesen, mit Papier trocknen"},
+      {"name": "Blaubeere/Heidelbeere (Hochsaison Juli-August)", "hochsaison": true, "lat": "Vaccinium myrtillus", "familie": "Ericaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-2", "haltbar_wo": "1-3 Tage", "konservierung": ["Marmelade", "Tiefgefrieren", "Saft"], "gerichte": ["Blaubeerkuchen", "Muffins", "Eis"], "verarbeitung": "Verlesen, vorsichtig, nicht quetschen"},
+      {"name": "Aprikose (Hochsaison Juli-August)", "hochsaison": true, "lat": "Prunus armeniaca", "familie": "Rosaceae", "herkunft": "AT/DE", "lagerung_c": "0-2", "haltbar_wo": "5-10 Tage", "konservierung": ["Marmelade", "Getrocknete", "Kompott"], "gerichte": ["Marillenknödel", "Aprikosenkuchen", "Marillen-Mus"], "verarbeitung": "Vorsichtig entsteinen (sehr empfindlich), mit Zitrone vor Oxidation schützen"}
+    ]
+  },
+
+  "august": {
+    "monat": "August",
+    "wetter": "Spätsommer. Letzte Beeren, Pflaumen.",
+    "obst": [
+      {"name": "Beeren-Mix (Ende August)", "hochsaison": true, "lat": "Rubus / Vaccinium / Fragaria / Ribes", "familie": "verschiedene", "herkunft": "DE/AT/CH", "lagerung_c": "0-2", "haltbar_wo": "1-3 Tage", "konservierung": ["Marmelade", "Tiefgefrieren", "Saft"], "gerichte": ["Beerentarte", "Beeren-Grütze", "Beeren-Eis"], "verarbeitung": "Verlesen, vorsichtig handhaben"},
+      {"name": "Pflaumen/Zwetschgen (Hochsaison August-Oktober)", "hochsaison": true, "lat": "Prunus domestica", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Wochen", "konservierung": ["Marmelade", "Powidl", "Kompott", "Tiefgefrieren"], "gerichte": ["Zwetschgenkuchen", "Pflaumenkuchen", "Zwetschgen-Knödel", "Pflaumenmus"], "verarbeitung": "Vorsichtig entsteinen (Stein bleibt oft in der Frucht), stapeln belastet"}
+    ]
+  },
+
+  "september": {
+    "monat": "September",
+    "wetter": "Frühherbst. Pflaumen, Trauben.",
+    "obst": [
+      {"name": "Pflaumen/Zwetschgen (Hochsaison bis Oktober)", "hochsaison": true, "lat": "Prunus domestica", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "1-2 Wochen", "konservierung": ["Marmelade", "Powidl"], "gerichte": ["Zwetschgenkuchen", "Pflaumenknödel"], "verarbeitung": "Entsteinen, vorsichtig stapeln"},
+      {"name": "Traube (Hochsaison September-Oktober)", "hochsaison": true, "lat": "Vitis vinifera", "familie": "Vitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "1-4", "haltbar_wo": "1-2 Wochen", "konservierung": ["Saft", "Wein", "Rosinen", "Traubensaft"], "gerichte": ["Käseplatte", "Traubensalat", "Traubenkuchen"], "verarbeitung": "Mit Stiel lagern, vorsichtig handhaben"}
+    ]
+  },
+
+  "oktober": {
+    "monat": "Oktober",
+    "wetter": "Herbst. Neue Äpfel & Birnen, Trauben.",
+    "obst": [
+      {"name": "Traube (Hochsaison bis Oktober)", "hochsaison": true, "lat": "Vitis vinifera", "familie": "Vitaceae", "herkunft": "DE/AT/CH", "lagerung_c": "1-4", "haltbar_wo": "1-2 Wochen", "konservierung": ["Saft", "Wein"], "gerichte": ["Käseplatte", "Traubensalat"], "verarbeitung": "Mit Stiel lagern"},
+      {"name": "Apfel (neue Ernte)", "hochsaison": true, "lat": "Malus domestica", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "bis 30 Wochen", "konservierung": ["Mus", "Kompott", "Saft"], "gerichte": ["Apfelkuchen", "Apfelstrudel"], "verarbeitung": "Mit Zitrone schützen, Kerngehäuse entfernen"},
+      {"name": "Birne (neue Ernte)", "hochsaison": true, "lat": "Pyrus communis", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "4-8 Wochen", "konservierung": ["Kompott", "Birnenbrot"], "gerichte": ["Birnenkompott", "Birnenkuchen"], "verarbeitung": "Reife empfindlich, Kerngehäuse entfernen"}
+    ]
+  },
+
+  "november": {
+    "monat": "November",
+    "wetter": "Herbst endet. Lagerware optimal.",
+    "obst": [
+      {"name": "Apfel (Lagerware)", "hochsaison": true, "lat": "Malus domestica", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "bis 30 Wochen", "konservierung": ["Mus", "Kompott", "Saft"], "gerichte": ["Apfelkuchen", "Apfelstrudel"], "verarbeitung": "Mit Zitrone schützen"},
+      {"name": "Birne (Lagerware)", "hochsaison": false, "lat": "Pyrus communis", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "4-8 Wochen", "konservierung": ["Kompott"], "gerichte": ["Birnenkompott"], "verarbeitung": "Reife beobachten"}
+    ]
+  },
+
+  "dezember": {
+    "monat": "Dezember",
+    "wetter": "Winter! Weihnachten. Lagerware, Import-Zitrus.",
+    "obst": [
+      {"name": "Apfel (Lagerware)", "hochsaison": true, "lat": "Malus domestica", "familie": "Rosaceae", "herkunft": "DE/AT/CH", "lagerung_c": "0-4", "haltbar_wo": "bis 30 Wochen", "konservierung": ["Mus", "Kompott"], "gerichte": ["Apfelkuchen", "Adventsessen"], "verarbeitung": "Mit Zitrone schützen"},
+      {"name": "Zitrusfrüchte (Hochsaison: Orangen, Mandarinen, Zitronen, Grapefruits)", "hochsaison": true, "lat": "Citrus spp.", "familie": "Rutaceae", "herkunft": "Import: Mittelmeerraum", "lagerung_c": "5-10", "haltbar_wo": "4-8 Wochen", "konservierung": ["Saft", "Marmelade", "Kandierte Schale"], "gerichte": ["Orangensaft", "Adventstee", "Mandarinen", "Glühwein"], "verarbeitung": "Waschen, pressen oder Scheiben für Dekoration"}
+    ]
+  }
+}
