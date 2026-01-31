@@ -1,0 +1,415 @@
+{
+  "kategorie": "obst",
+  "region": "DACH",
+  "beschreibung": "Saisonales Obst (D, AT, CH) mit Monatsangabe, Lagerung, Konservierung, typischen Gerichten und Bio-Hinweisen.",
+  "schema_version": "1.0",
+  "obst": [
+    {
+      "deutscher_name": "Apfel",
+      "kategorie": "obst",
+      "unterkategorie": "kernobst",
+      "lateinischer_name": "Malus domestica",
+      "pflanzenfamilie": "Rosaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "Apfel gehört zu den meistbehandelten Obstarten",
+          "Schale wird häufig mitgegessen"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["August", "September", "Oktober"],
+        "gewaechshaus": [],
+        "lagerware": ["November", "Dezember", "Januar", "Februar", "Maerz", "April", "Mai", "Juni", "Juli"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["zusammen_mit_blattgemuese"],
+        "lagerdauer": "12-30 Wochen (sorteabhängig)",
+        "besonderheiten": "Apfel ist starker Ethylen-Emittent – getrennt von empfindlichen Gemüsen lagern"
+      },
+      "konservierungsmethoden": [
+        "Apfelmus",
+        "Apfelkompott",
+        "Apfelringe getrocknet",
+        "Apfelsaft / Cidre",
+        "Apfelgelee"
+      ],
+      "typische_gerichte": [
+        "Apfelstrudel",
+        "Apfelkuchen",
+        "Bratapfel",
+        "Apfelpfannkuchen",
+        "Rotkohl mit Apfel"
+      ],
+      "verarbeitung_hinweise": [
+        "für Rohkost und Salate eher feste, säuerliche Sorten verwenden",
+        "für Mus mehligkochende Sorten",
+        "geschnittene Äpfel mit Zitronensaft vor Bräunung schützen"
+      ]
+    },
+    {
+      "deutscher_name": "Birne",
+      "kategorie": "obst",
+      "unterkategorie": "kernobst",
+      "lateinischer_name": "Pyrus communis",
+      "pflanzenfamilie": "Rosaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": eher_true,
+        "gruende": [
+          "Schale wird häufig mitgegessen",
+          "Rückstände möglich, aber meist geringer als bei Äpfeln"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["August", "September", "Oktober"],
+        "gewaechshaus": [],
+        "lagerware": ["November", "Dezember", "Januar", "Februar"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["lange_raumtemperatur_beim_reifen"],
+        "lagerdauer": "4-8 Wochen",
+        "besonderheiten": "Birnen reifen nach – hart geerntete Früchte bei Raumtemperatur zur Essreife bringen"
+      },
+      "konservierungsmethoden": [
+        "Birnenkompott",
+        "Birnen in Rotwein (eingeweckt)",
+        "Birnenmarmelade",
+        "Birnensaft"
+      ],
+      "typische_gerichte": [
+        "Birne Helene",
+        "Birnenkompott",
+        "Birnenkuchen",
+        "Birne mit Blauschimmelkäse",
+        "Himmel und Erde (mit Apfel/Birne)"
+      ],
+      "verarbeitung_hinweise": [
+        "reife Birnen sind druckempfindlich – vorsichtig verarbeiten",
+        "für pochierte Desserts eher festere Sorten wählen",
+        "geschnittene Birnen ebenfalls mit Zitrussaft vor Bräunung schützen"
+      ]
+    },
+    {
+      "deutscher_name": "Erdbeere",
+      "kategorie": "obst",
+      "unterkategorie": "beerenobst",
+      "lateinischer_name": "Fragaria × ananassa",
+      "pflanzenfamilie": "Rosaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "sehr hohe Rückstandswerte im konventionellen Anbau möglich",
+          "wird roh verzehrt und nicht geschält"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juni", "Juli"],
+        "gewaechshaus": ["Mai"],
+        "lagerware": [],
+        "tk_ware": ["August", "September", "Oktober", "November", "Dezember", "Januar", "Februar", "Maerz", "April"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["waschen_vor_lagerung", "stapeln"],
+        "lagerdauer": "1-3 Tage",
+        "besonderheiten": "dringend kühl und trocken lagern; erst kurz vor Verwendung waschen"
+      },
+      "konservierungsmethoden": [
+        "Erdbeermarmelade",
+        "Erdbeerkompott",
+        "tiefgefrieren als ganze Frucht oder Püree",
+        "Erdbeersirup"
+      ],
+      "typische_gerichte": [
+        "Erdbeerkuchen",
+        "Erdbeer-Tiramisu",
+        "Erdbeerquark",
+        "Erdbeersorbet",
+        "Erdbeersalat mit Balsamico"
+      ],
+      "verarbeitung_hinweise": [
+        "Druckstellen und Matschteile entfernen",
+        "Kelchblätter erst nach dem Waschen entfernen",
+        "für Saucen und Coulis kurz pürieren – nicht zu lange mixen (Lufteintrag)"
+      ]
+    },
+    {
+      "deutscher_name": "Kirsche",
+      "kategorie": "obst",
+      "unterkategorie": "steinobst",
+      "lateinischer_name": "Prunus avium / Prunus cerasus",
+      "pflanzenfamilie": "Rosaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": eher_true,
+        "gruende": [
+          "Schale wird mitgegessen",
+          "Rückstände möglich, aber geringer als bei manchen Beeren"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juni", "Juli"],
+        "gewaechshaus": [],
+        "lagerware": [],
+        "tk_ware": ["August", "September", "Oktober", "November", "Dezember", "Januar", "Februar", "Maerz", "April", "Mai"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["waschen_vor_lagerung"],
+        "lagerdauer": "2-5 Tage",
+        "besonderheiten": "mit Stiel lagern, erhöht Haltbarkeit; erst vor Verwendung waschen"
+      },
+      "konservierungsmethoden": [
+        "Sauerkirschen im Glas",
+        "Kirschmarmelade",
+        "Kirschsaft",
+        "tiefgefrieren entsteint",
+        "Kirschlikör"
+      ],
+      "typische_gerichte": [
+        "Schwarzwälder Kirschtorte",
+        "Kirschkompott",
+        "Clafoutis",
+        "Kirschkuchen",
+        "Kirschenmichel"
+      ],
+      "verarbeitung_hinweise": [
+        "für Backwaren Kirschen entsteinen",
+        "für Sauerkirschen-Spezialitäten eher säuerliche Sorten verwenden",
+        "Saft spritzt stark – Schürze/Schutz verwenden"
+      ]
+    },
+    {
+      "deutscher_name": "Pflaume / Zwetschge",
+      "kategorie": "obst",
+      "unterkategorie": "steinobst",
+      "lateinischer_name": "Prunus domestica",
+      "pflanzenfamilie": "Rosaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": eher_true,
+        "gruende": [
+          "Schale wird mitgegessen",
+          "Rückstände möglich, aber Schale relativ robust"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["August", "September", "Oktober"],
+        "gewaechshaus": [],
+        "lagerware": [],
+        "tk_ware": ["November", "Dezember", "Januar", "Februar", "Maerz", "April", "Mai", "Juni", "Juli"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "85-95",
+        "nicht_geeignet": ["druckbelastung"],
+        "lagerdauer": "1-2 Wochen",
+        "besonderheiten": "reife Früchte empfindlich, vorsichtig stapeln"
+      },
+      "konservierungsmethoden": [
+        "Zwetschgenmus / Powidl",
+        "Pflaumenmarmelade",
+        "einkochen als Kompott",
+        "tiefgefrieren halbiert/entsteint"
+      ],
+      "typische_gerichte": [
+        "Zwetschgenkuchen",
+        "Zwetschgenknödel",
+        "Pflaumenmus",
+        "Roastbraten mit Pflaumensauce"
+      ],
+      "verarbeitung_hinweise": [
+        "entsteinen, halbieren oder vierteln",
+        "für Mus langsam und lange einkochen (Karamellisierung, Aroma)",
+        "reife Früchte geben mehr Saft – Bindung in Kuchen berücksichtigen"
+      ]
+    },
+    {
+      "deutscher_name": "Traube / Weintraube",
+      "kategorie": "obst",
+      "unterkategorie": "beerenobst",
+      "lateinischer_name": "Vitis vinifera",
+      "pflanzenfamilie": "Vitaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "Weinbau oft stark behandelt",
+          "Schale wird mitgegessen"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["September", "Oktober"],
+        "gewaechshaus": [],
+        "lagerware": ["November"],
+        "importware": ["Januar", "Februar", "Maerz", "April", "Mai", "Juni", "Juli", "August", "Dezember"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "1-4",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["waschen_vor_lagerung"],
+        "lagerdauer": "1-2 Wochen",
+        "besonderheiten": "am besten als ganze Traube mit Stiel lagern, einzelne Beeren verderben schneller"
+      },
+      "konservierungsmethoden": [
+        "Saft und Wein",
+        "Rosinen (getrocknet)",
+        "Traubengelee",
+        "Traubenkernöl"
+      ],
+      "typische_gerichte": [
+        "Käseplatte mit Trauben",
+        "Traubensalat",
+        "Saucen mit Trauben",
+        "Desserts mit frischen Trauben"
+      ],
+      "verarbeitung_hinweise": [
+        "für Kompott entkernen (bei Kernen) und evtl. schälen",
+        "für Rosinen spezielle Sorten mit hohem Zuckergehalt verwenden",
+        "zum Dekorieren frische, unbeschädigte Trauben wählen"
+      ]
+    },
+    {
+      "deutscher_name": "Aprikose",
+      "kategorie": "obst",
+      "unterkategorie": "steinobst",
+      "lateinischer_name": "Prunus armeniaca",
+      "pflanzenfamilie": "Rosaceae",
+      "region_typisch": ["AT", "DE", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": eher_true,
+        "gruende": [
+          "dünne Schale, die mitgegessen wird"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juli", "August"],
+        "gewaechshaus": [],
+        "lagerware": [],
+        "tk_ware": ["September", "Oktober", "November", "Dezember", "Januar", "Februar", "Maerz", "April", "Mai", "Juni"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-2",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["zu_lange_raumtemperatur"],
+        "lagerdauer": "5-10 Tage",
+        "besonderheiten": "leicht nachreifend – harte Früchte kurze Zeit bei Zimmertemperatur lagern"
+      },
+      "konservierungsmethoden": [
+        "Aprikosenmarmelade",
+        "getrocknete Aprikosen",
+        "einkochen als Kompott",
+        "tiefgefrieren halbiert/entsteint"
+      ],
+      "typische_gerichte": [
+        "Marillenknödel",
+        "Aprikosenkuchen",
+        "Aprikosenmarmelade",
+        "Aprikosenchutney"
+      ],
+      "verarbeitung_hinweise": [
+        "reife Früchte sehr empfindlich, vorsichtig entsteinen",
+        "für Knödel und Kuchen nicht überreif (zu weich)",
+        "Schale kann dran bleiben – bei sehr dicker Behaarung ggf. abreiben"
+      ]
+    },
+    {
+      "deutscher_name": "Rhabarber",
+      "kategorie": "obst",
+      "unterkategorie": "stielobst",
+      "lateinischer_name": "Rheum rhabarbarum",
+      "pflanzenfamilie": "Polygonaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": eher_true,
+        "gruende": [
+          "Stiele werden ganz verwendet, Rückstände möglich"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["April", "Mai", "Juni"],
+        "gewaechshaus": ["Maerz"],
+        "lagerware": []
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-2",
+        "luftfeuchtigkeit_prozent": "95-100",
+        "nicht_geeignet": ["lange_raumtemperatur"],
+        "lagerdauer": "3-7 Tage",
+        "besonderheiten": "Blätter sind giftig (Oxalsäure) – nicht verwenden; Ernteende traditionell um Johanni (24. Juni)"
+      },
+      "konservierungsmethoden": [
+        "Rhabarberkompott",
+        "Rhabarbermarmelade",
+        "einwecken als Dessert",
+        "tiefgefrieren in Stücken"
+      ],
+      "typische_gerichte": [
+        "Rhabarberkuchen",
+        "Rhabarberkompott",
+        "Erdbeer-Rhabarber-Desserts",
+        "Rhabarberschorle / -sirup"
+      ],
+      "verarbeitung_hinweise": [
+        "Stangen waschen, Blattansätze entfernen",
+        "bei älteren Stielen die äußere Haut abziehen",
+        "nicht in Alu-Geschirr kochen (Säure greift Aluminium an)"
+      ]
+    },
+    {
+      "deutscher_name": "Beeren-Mix (Himbeere, Brombeere, Blaubeere, Johannisbeere)",
+      "kategorie": "obst",
+      "unterkategorie": "beerenobst",
+      "lateinischer_name": "Rubus idaeus / Rubus fruticosus / Vaccinium myrtillus / Ribes rubrum",
+      "pflanzenfamilie": "Rosaceae / Ericaceae / Grossulariaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "empfindliche, unbehandelte Oberfläche",
+          "wird roh verzehrt"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juni", "Juli", "August"],
+        "gewaechshaus": ["Mai", "September"],
+        "lagerware": [],
+        "tk_ware": ["Oktober", "November", "Dezember", "Januar", "Februar", "Maerz", "April"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-2",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["waschen_vor_lagerung", "stapeln"],
+        "lagerdauer": "1-3 Tage",
+        "besonderheiten": "Druckstellen vermeiden; in flachen Schalen lagern"
+      },
+      "konservierungsmethoden": [
+        "Marmelade / Konfitüre",
+        "Fruchtaufstriche",
+        "Coulis / Fruchtsaucen",
+        "tiefgefrieren",
+        "Saft / Sirup"
+      ],
+      "typische_gerichte": [
+        "Beerentarte",
+        "Beerengrütze",
+        "Joghurtdesserts mit Beeren",
+        "Beeren-Smoothies"
+      ],
+      "verarbeitung_hinweise": [
+        "vorsichtig verlesen, nicht waschen, wenn nicht nötig",
+        "für Desserts kurz vor dem Servieren auflegen",
+        "für Saucen nur leicht pürieren, um Kerne zu erhalten oder anschließend passieren"
+      ]
+    }
+  ]
+}

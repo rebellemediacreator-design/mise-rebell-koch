@@ -1,0 +1,498 @@
+{
+  "kategorie": "gemuese",
+  "region": "DACH",
+  "beschreibung": "Saisonales Gemüse (D, AT, CH) mit Monatsangabe, Lagerung, Konservierung, typischen Gerichten und Bio-Hinweisen.",
+  "schema_version": "1.0",
+  "gemuese": [
+    {
+      "deutscher_name": "Kartoffel",
+      "kategorie": "gemuese",
+      "unterkategorie": "knollengemuese",
+      "lateinischer_name": "Solanum tuberosum",
+      "pflanzenfamilie": "Solanaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "häufig mit Keimhemmern und Fungiziden behandelt",
+          "wird oft mit Schale verarbeitet (Pellkartoffeln, Wedges)"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juli", "August", "September", "Oktober"],
+        "gewaechshaus": [],
+        "lagerware": ["November", "Dezember", "Januar", "Februar", "Maerz", "April", "Mai", "Juni"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "4-6",
+        "luftfeuchtigkeit_prozent": "85-95",
+        "nicht_geeignet": ["licht", "kuehlschrank_unter_4_grad"],
+        "lagerdauer": "8-20 Wochen je nach Sorte und Lagerqualität",
+        "besonderheiten": "dunkel lagern, Licht führt zu Grünfärbung und Solaninbildung; keimende Knollen aussortieren"
+      },
+      "konservierungsmethoden": [
+        "trocknen als Kartoffelflocken",
+        "tiefgefrieren als vorgegarte Würfel oder Kroketten",
+        "fermentieren als spezielle Produkte",
+        "einkochen als Kartoffelsuppe oder Eintopf"
+      ],
+      "typische_gerichte": [
+        "Salzkartoffeln",
+        "Pellkartoffeln mit Quark",
+        "Kartoffelsalat (warm oder kalt)",
+        "Kartoffelsuppe",
+        "Kartoffelgratin",
+        "Bratkartoffeln",
+        "Kartoffelpüree",
+        "Rösti / Reibekuchen"
+      ],
+      "verarbeitung_hinweise": [
+        "Kartoffeln stets gründlich waschen, Erde und Augen entfernen",
+        "grüne Stellen und Keime großzügig wegschneiden",
+        "für Püree mehligkochende Sorten, für Salat festkochende verwenden",
+        "geschälte Kartoffeln in Wasser mit etwas Säure aufbewahren (nicht länger als 1 Tag)"
+      ]
+    },
+    {
+      "deutscher_name": "Karotte / Möhre",
+      "kategorie": "gemuese",
+      "unterkategorie": "wurzelgemuese",
+      "lateinischer_name": "Daucus carota subsp. sativus",
+      "pflanzenfamilie": "Apiaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "Wurzelgemüse nimmt Rückstände aus dem Boden gut auf",
+          "Schale wird teilweise mitverzehrt"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juni", "Juli", "August", "September", "Oktober"],
+        "gewaechshaus": ["Mai"],
+        "lagerware": ["November", "Dezember", "Januar", "Februar", "Maerz", "April"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["trockene_luft", "direkte_sonne"],
+        "lagerdauer": "8-16 Wochen (im Profikeller auch länger)",
+        "besonderheiten": "Blattansatz entfernen, da er Feuchtigkeit entzieht; in perforierten Beuteln oder in feuchtem Sand lagern"
+      },
+      "konservierungsmethoden": [
+        "fermentieren (z.B. Karottensticks in Salzlake)",
+        "einkochen als Suppe oder Eintopf",
+        "tiefgefrieren nach Blanchieren",
+        "trocknen als Gemüsepulver oder Chips"
+      ],
+      "typische_gerichte": [
+        "Möhrengemüse in Butter",
+        "Karottensuppe / Cremesuppe",
+        "Glasierte Möhren",
+        "Rohkostsalat mit Apfel",
+        "Möhrenkuchen",
+        "Gemüseeintopf"
+      ],
+      "verarbeitung_hinweise": [
+        "junges Gemüse kann nur gebürstet werden, ältere Wurzeln schälen",
+        "gleichmäßige Schnittgrößen (Brunoise, Julienne, Scheiben) für gleichmäßige Garzeit",
+        "für intensive Farbe und Nährstofferhalt besser dämpfen als in viel Wasser kochen",
+        "Rohkost anreiben und zügig servieren (Oxidation)"
+      ]
+    },
+    {
+      "deutscher_name": "Zwiebel",
+      "kategorie": "gemuese",
+      "unterkategorie": "zwiebelgemuese",
+      "lateinischer_name": "Allium cepa",
+      "pflanzenfamilie": "Amaryllidaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": false,
+        "gruende": [
+          "relativ geringe Rückstandsbelastung",
+          "Schale wird entfernt"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juli", "August", "September"],
+        "gewaechshaus": [],
+        "lagerware": ["Oktober", "November", "Dezember", "Januar", "Februar", "Maerz", "April", "Mai", "Juni"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "4-10",
+        "luftfeuchtigkeit_prozent": "60-75",
+        "nicht_geeignet": ["kuehlschrank_bei_hoher_feuchte", "plastiktuete_ohne_lueftung"],
+        "lagerdauer": "12-24 Wochen",
+        "besonderheiten": "luftig, trocken und dunkel lagern; nicht neben Kartoffeln (gegenseitige Beeinflussung)"
+      },
+      "konservierungsmethoden": [
+        "trocknen zu Röstzwiebeln",
+        "einlegen in Essig (Zwiebelpickles)",
+        "tiefgefrieren gehackt",
+        "einschmoren in Fonds und Saucen"
+      ],
+      "typische_gerichte": [
+        "Zwiebelsuppe",
+        "Zwiebelkuchen",
+        "Röstzwiebeln",
+        "Grundlage fast aller Suppen und Saucen",
+        "Zwiebelrostbraten"
+      ],
+      "verarbeitung_hinweise": [
+        "Wurzelansatz erst zuletzt entfernen, damit die Zwiebel beim Schneiden zusammenhält",
+        "gleichmäßige Würfel (Brunoise, Mirepoix) für gleichmäßiges Anrösten",
+        "nicht zu heiß bräunen – Bitterstoffe und Acrylamid vermeiden",
+        "angeschnittene Zwiebeln gut abgedeckt im Kühlschrank lagern und zeitnah verbrauchen"
+      ]
+    },
+    {
+      "deutscher_name": "Tomate",
+      "kategorie": "gemuese",
+      "unterkategorie": "fruchtgemuese",
+      "lateinischer_name": "Solanum lycopersicum",
+      "pflanzenfamilie": "Solanaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "hohe Rückstandsbelastung möglich",
+          "wird fast immer mit Schale verzehrt"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juli", "August", "September", "Oktober"],
+        "gewaechshaus": ["Mai", "Juni", "November"],
+        "lagerware": []
+      },
+      "lagerung": {
+        "temperatur_celsius": "12-18",
+        "luftfeuchtigkeit_prozent": "80-90",
+        "nicht_geeignet": ["kuehlschrank_unter_10_grad"],
+        "lagerdauer": "3-7 Tage",
+        "besonderheiten": "nicht im Kühlschrank lagern – Aromaverlust; getrennt von empfindlichem Gemüse wegen Ethylen"
+      },
+      "konservierungsmethoden": [
+        "einkochen als Tomatensauce oder Passata",
+        "trocknen als Halbgetrocknete in Öl",
+        "fermentieren (Tomaten-Salsa)",
+        "tiefgefrieren passiert oder als Sauce"
+      ],
+      "typische_gerichte": [
+        "Tomatensuppe",
+        "Tomatensauce für Pasta",
+        "Bruschetta",
+        "Caprese",
+        "Ratatouille",
+        "Shakshuka"
+      ],
+      "verarbeitung_hinweise": [
+        "für Saucen Haut kreuzweise einschneiden, kurz blanchieren und häuten",
+        "Stielansatz (Grün) entfernen, leichte Giftstoffe im Strunk",
+        "mit etwas Zucker Säure ausbalancieren",
+        "für klare Fonds entkernen und nur das Fruchtfleisch nutzen"
+      ]
+    },
+    {
+      "deutscher_name": "Gurke",
+      "kategorie": "gemuese",
+      "unterkategorie": "fruchtgemuese",
+      "lateinischer_name": "Cucumis sativus",
+      "pflanzenfamilie": "Cucurbitaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "Schale wird häufig mitgegessen",
+          "konventioneller Anbau oft mit Pestiziden"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juli", "August", "September"],
+        "gewaechshaus": ["Mai", "Juni", "Oktober"],
+        "lagerware": []
+      },
+      "lagerung": {
+        "temperatur_celsius": "10-13",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["kuehlschrank_unter_8_grad", "lagerung_neben_ae pfeln"],
+        "lagerdauer": "5-7 Tage",
+        "besonderheiten": "empfindlich gegen Kälte und Ethylen – getrennt von Äpfeln, Tomaten, Bananen"
+      },
+      "konservierungsmethoden": [
+        "einlegen als Essiggurke",
+        "fermentieren als Salzgurke",
+        "tiefgefrieren geraspelt nur bedingt sinnvoll (für Tzatziki/Soßen)"
+      ],
+      "typische_gerichte": [
+        "Gurkensalat",
+        "Tzatziki",
+        "Salatgurke in gemischten Salaten",
+        "kalte Gurkensuppe"
+      ],
+      "verarbeitung_hinweise": [
+        "Endstücke abschneiden, evtl. bitter schmeckende Stellen entfernen",
+        "für weniger Wasser austreten: gescheibelte Gurken salzen und abtropfen lassen",
+        "Schale nach Bedarf ganz, teilgeschält (Streifen) oder komplett entfernt nutzen"
+      ]
+    },
+    {
+      "deutscher_name": "Paprika",
+      "kategorie": "gemuese",
+      "unterkategorie": "fruchtgemuese",
+      "lateinischer_name": "Capsicum annuum",
+      "pflanzenfamilie": "Solanaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "hohe Rückstandswerte im konventionellen Anbau häufig",
+          "Schale wird mitgegessen"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juli", "August", "September"],
+        "gewaechshaus": ["Mai", "Juni", "Oktober"],
+        "lagerware": []
+      },
+      "lagerung": {
+        "temperatur_celsius": "8-10",
+        "luftfeuchtigkeit_prozent": "85-95",
+        "nicht_geeignet": ["kuehlschrank_unter_5_grad"],
+        "lagerdauer": "5-10 Tage",
+        "besonderheiten": "nicht zu kalt lagern; bei Druckstellen schnell Schimmelgefahr"
+      },
+      "konservierungsmethoden": [
+        "grillen und einlegen in Öl",
+        "tiefgefrieren als Streifen nach Blanchieren",
+        "fermentieren als Paprika-Salsa"
+      ],
+      "typische_gerichte": [
+        "Gefüllte Paprika",
+        "Ratatouille",
+        "Letscho",
+        "Ofengemüse mit Paprika",
+        "Paprikahähnchen"
+      ],
+      "verarbeitung_hinweise": [
+        "Stiel, Kerngehäuse und weiße Scheidewände entfernen",
+        "Schale bei empfindlichen Gästen oder für feine Terrinen ggf. abziehen (Ofen/Grill + Häuten)",
+        "gleichmäßige Stücke schneiden (Julienne, Würfel, Rauten)"
+      ]
+    },
+    {
+      "deutscher_name": "Zucchini",
+      "kategorie": "gemuese",
+      "unterkategorie": "fruchtgemuese",
+      "lateinischer_name": "Cucurbita pepo",
+      "pflanzenfamilie": "Cucurbitaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": false,
+        "gruende": [
+          "Schale relativ dick, geringere Rückstandsbelastung",
+          "häufig geschält oder gegart"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Juni", "Juli", "August", "September"],
+        "gewaechshaus": ["Mai"],
+        "lagerware": []
+      },
+      "lagerung": {
+        "temperatur_celsius": "8-10",
+        "luftfeuchtigkeit_prozent": "90-95",
+        "nicht_geeignet": ["kuehlschrank_unter_5_grad"],
+        "lagerdauer": "5-10 Tage",
+        "besonderheiten": "nicht zu groß werden lassen, sonst wässrig und mit harten Kernen; Bitterkeit deutet auf Cucurbitacine → nicht verzehren"
+      },
+      "konservierungsmethoden": [
+        "einlegen in Essig-Öl",
+        "tiefgefrieren in Scheiben nach Blanchieren",
+        "fermentieren im Gemüsemix"
+      ],
+      "typische_gerichte": [
+        "Ratatouille",
+        "Gefüllte Zucchini",
+        "Zucchini-Puffer",
+        "gegrillte Zucchinischeiben",
+        "Zoodles (Zucchininudeln)"
+      ],
+      "verarbeitung_hinweise": [
+        "für gleichmäßige Garung Scheiben/Stifte gleicher Dicke schneiden",
+        "nicht zu lange garen – sonst matschig",
+        "bei sichtbaren Kernen ggf. entkernen und Kernhaus entfernen"
+      ]
+    },
+    {
+      "deutscher_name": "Blumenkohl",
+      "kategorie": "gemuese",
+      "unterkategorie": "bluetengemuese",
+      "lateinischer_name": "Brassica oleracea var. botrytis",
+      "pflanzenfamilie": "Brassicaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": eher_true,
+        "gruende": [
+          "kohltypische Anbaubehandlung",
+          "Blume relativ offen – Rückstände an der Oberfläche möglich"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Mai", "Juni", "Juli", "August", "September", "Oktober"],
+        "gewaechshaus": ["April"],
+        "lagerware": ["November"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "95-100",
+        "nicht_geeignet": ["trockene_luft", "raumtemperatur"],
+        "lagerdauer": "5-7 Tage",
+        "besonderheiten": "Blätter schützen Kopf – nach Möglichkeit beim Lagern dran lassen; Verfärbungen (braune Flecken) entfernen"
+      },
+      "konservierungsmethoden": [
+        "tiefgefrieren nach Blanchieren",
+        "einkochen als Suppe",
+        "fermentieren im Gemüsemix"
+      ],
+      "typische_gerichte": [
+        "Blumenkohl mit Butterbröseln",
+        "Blumenkohlauflauf",
+        "Blumenkohl-Curry",
+        "Blumenkohlsuppe",
+        "Ofen-Blumenkohl (geröstet)"
+      ],
+      "verarbeitung_hinweise": [
+        "in Röschen teilen, Strunk kreuzweise einschneiden",
+        "Blanchieren mit etwas Milch oder Zitronensaft gegen Verfärbung",
+        "nicht zu lange kochen – sonst schwefliger Geruch"
+      ]
+    },
+    {
+      "deutscher_name": "Spinat",
+      "kategorie": "gemuese",
+      "unterkategorie": "blattgemuese",
+      "lateinischer_name": "Spinacia oleracea",
+      "pflanzenfamilie": "Amaranthaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "Blattgemüse mit großer Oberfläche",
+          "Rückstände haften leicht und werden nicht geschält"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["April", "Mai", "Juni", "September", "Oktober"],
+        "gewaechshaus": ["Maerz", "November"],
+        "lagerware": []
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "95-100",
+        "nicht_geeignet": ["zimmerwarm", "trockene_lagerung"],
+        "lagerdauer": "1-2 Tage",
+        "besonderheiten": "sehr empfindlich; möglichst am Kauftag verarbeiten"
+      },
+      "konservierungsmethoden": [
+        "tiefgefrieren nach Blanchieren",
+        "püriert als Würzpaste einfrieren"
+      ],
+      "typische_gerichte": [
+        "Rahmspinat",
+        "Spinat-Lasagne",
+        "Spinatknödel",
+        "Spinat-Feta-Strudel",
+        "Blattspinat-Salat"
+      ],
+      "verarbeitung_hinweise": [
+        "mehrfach in kaltem Wasser waschen (Sand entfernt)",
+        "grobe Stiele entfernen",
+        "blanchieren nur sehr kurz (Sekundenbereich) für kräftiges Grün",
+        "Nitrat-Thema: abgekühlten Spinat kühl aufbewahren und nicht mehrfach aufwärmen"
+      ]
+    },
+    {
+      "deutscher_name": "Feldsalat",
+      "kategorie": "gemuese",
+      "unterkategorie": "blattgemuese",
+      "lateinischer_name": "Valerianella locusta",
+      "pflanzenfamilie": "Caprifoliaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": true,
+        "gruende": [
+          "Blattgemüse wird roh gegessen",
+          "hohe Oberflächenbelastung möglich"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["Oktober", "November", "Dezember", "Januar", "Februar", "Maerz"],
+        "gewaechshaus": [],
+        "lagerware": []
+      },
+      "lagerung": {
+        "temperatur_celsius": "0-4",
+        "luftfeuchtigkeit_prozent": "95-100",
+        "nicht_geeignet": ["ungeschuetzt_im_kuehlschrank", "zimmerwarm"],
+        "lagerdauer": "1-2 Tage",
+        "besonderheiten": "ungewaschen in Originalverpackung am haltbarsten; erst kurz vor Verwendung waschen"
+      },
+      "konservierungsmethoden": [],
+      "typische_gerichte": [
+        "Feldsalat mit Kartoffeldressing",
+        "Feldsalat mit Speck und Croutons",
+        "bunte Wintersalate mit Feldsalat"
+      ],
+      "verarbeitung_hinweise": [
+        "Wurzelende abschneiden, Rosetten auseinander zupfen",
+        "sorgfältig waschen – Erde hängt häufig in den Rosetten",
+        "Blätter gut trocknen (Salatschleuder) für stabile Dressings"
+      ]
+    },
+    {
+      "deutscher_name": "Kürbis (Speisekürbis)",
+      "kategorie": "gemuese",
+      "unterkategorie": "fruchtgemuese",
+      "lateinischer_name": "Cucurbita maxima / Cucurbita moschata / Cucurbita pepo",
+      "pflanzenfamilie": "Cucurbitaceae",
+      "region_typisch": ["DE", "AT", "CH"],
+      "bio_hinweise": {
+        "sinnvoll_bio": eher_true,
+        "gruende": [
+          "dicke Schale schützt, Rückstände gering, aber Bio bei regionaler Ware oft kaum teurer"
+        ]
+      },
+      "saison_dach": {
+        "freiland": ["September", "Oktober"],
+        "gewaechshaus": ["August"],
+        "lagerware": ["November", "Dezember", "Januar", "Februar"]
+      },
+      "lagerung": {
+        "temperatur_celsius": "10-15",
+        "luftfeuchtigkeit_prozent": "60-75",
+        "nicht_geeignet": ["kuehlschrank_langzeit"],
+        "lagerdauer": "8-20 Wochen (je nach Sorte)",
+        "besonderheiten": "ganze Kürbisse trocken und luftig lagern; angeschnittene Stücke im Kühlschrank zügig verbrauchen"
+      },
+      "konservierungsmethoden": [
+        "einkochen als Suppe oder Püree",
+        "einlegen süß-sauer",
+        "fermentieren im Gemüsemix",
+        "tiefgefrieren als Würfel oder Püree"
+      ],
+      "typische_gerichte": [
+        "Kürbissuppe",
+        "Ofenkürbis",
+        "Kürbisrisotto",
+        "Kürbiskuchen",
+        "süß-sauer eingelegter Kürbis"
+      ],
+      "verarbeitung_hinweise": [
+        "harte Schale mit großem Messer vorsichtig teilen",
+        "Kerne und Fasern entfernen – Kerne können geröstet werden",
+        "Hokkaido kann mit Schale verwendet werden, andere Sorten meist schälen"
+      ]
+    }
+  ]
+}

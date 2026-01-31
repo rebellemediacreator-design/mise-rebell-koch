@@ -1,0 +1,616 @@
+{
+  "beruf": "Koch/Köchin",
+  "pruefungsteil": "GAP 2 (Gestreckte Abschlussprüfung Teil 2)",
+  "pruefungsform": "Schriftliche Bereiche",
+  "beschreibung": "Abschlussprüfung Teil 2 besteht aus praktischer Menüprüfung und vier schriftlichen Prüfungsbereichen.",
+  "dauer": "240 Min praktisch + 330 Min schriftlich verteilt",
+  "gewichtung": "75% der Gesamtnote",
+  "erstellt": "2026-01-24",
+  "version": "1.0",
+  "fragen_gesamt": 45,
+  "pruefungsbereiche": [
+    {
+      "bereich": "Technologie",
+      "gewichtung": "25%",
+      "dauer_minuten": 90,
+      "fragen_anzahl": 15
+    },
+    {
+      "bereich": "Warenwirtschaft",
+      "gewichtung": "15%",
+      "dauer_minuten": 60,
+      "fragen_anzahl": 10
+    },
+    {
+      "bereich": "Wirtschafts- und Sozialkunde",
+      "gewichtung": "10%",
+      "dauer_minuten": 60,
+      "fragen_anzahl": 10
+    },
+    {
+      "bereich": "Veranstaltungsorganisation",
+      "gewichtung": "15%",
+      "dauer_minuten": 60,
+      "fragen_anzahl": 10
+    }
+  ],
+  "fragen": {
+    "technologie": [
+      {
+        "id": "G2-TK-001",
+        "bereich": "Technologie",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welcher Begriff beschreibt das langsame Garen von Fleisch bei niedrigen Temperaturen (60-75 °C)?",
+        "optionen": [
+          "A) Konfit-Garen",
+          "B) Niedrigtemperaturgaren",
+          "C) Sous-Vide",
+          "D) Schmoren"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Niedrigtemperaturgaren ermöglicht maximale Zartheit und Saftigkeit."
+      },
+      {
+        "id": "G2-TK-002",
+        "bereich": "Technologie",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Erklären Sie die Unterschiede zwischen Pochieren und Simmern.",
+        "loesungshinweis": "Pochieren: Garen knapp unter Siedepunkt (65-95 °C), z.B. für Eier, Fisch. Simmern: leises Köcheln knapp unter 100 °C, z.B. für Eintöpfe, Brühen.",
+        "max_punkte": 4
+      },
+      {
+        "id": "G2-TK-003",
+        "bereich": "Technologie",
+        "frage_typ": "multiple_choice",
+        "schwierigkeitsgrad": "schwer",
+        "frage": "Welche Aussagen zu Grundsaucen sind RICHTIG?",
+        "optionen": [
+          "A) Helle Grundsaucen basieren auf heller Mehlschwitze.",
+          "B) Dunkle Grundsaucen werden mit dunkler Mehlschwitze und Fleischbrühe hergestellt.",
+          "C) Holländaise ist eine emulgierte warme Grundsauce.",
+          "D) Alle Grundsaucen müssen mindestens 30 Minuten köcheln."
+        ],
+        "richtige_antworten": ["A", "B", "C"],
+        "hinweise": "Grundsaucen sind Basis für viele Ableitungen."
+      },
+      {
+        "id": "G2-TK-004",
+        "bereich": "Technologie",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Bei welcher Kerntemperatur ist ein Rinderfilet ‚medium rare' geart?",
+        "optionen": [
+          "A) 48-52 °C",
+          "B) 52-58 °C",
+          "C) 58-62 °C",
+          "D) 63-68 °C"
+        ],
+        "richtige_antwort": "C",
+        "hinweise": "Medium rare ist der Standard in der gehobenen Gastronomie."
+      },
+      {
+        "id": "G2-TK-005",
+        "bereich": "Technologie",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Beschreiben Sie den Prozess des Flambierens und nennen Sie zwei Beispiele.",
+        "loesungshinweis": "Flambieren = Speisen mit Alkohol übergießen und anzünden. Zwecke: Alkoholdampf verbrennt, Geschmack intensiviert. Beispiele: Crêpes Suzette, Filetsteak mit Cognac.",
+        "max_punkte": 4
+      },
+      {
+        "id": "G2-TK-006",
+        "bereich": "Technologie",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Welches Verfahren wird angewendet, um Gemüse kurz zu kochen und anschließend abzuschrecken?",
+        "optionen": [
+          "A) Dünsten",
+          "B) Blanchieren",
+          "C) Schmoren",
+          "D) Pochieren"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Blanchieren stoppt den Garprozess durch Abkühlung."
+      },
+      {
+        "id": "G2-TK-007",
+        "bereich": "Technologie",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "schwer",
+        "frage": "Erklären Sie das Verfahren zur Herstellung einer Demi-Glace (Braune Grundsauce).",
+        "loesungshinweis": "1. Knochen und Abschnitte anrösten. 2. Mit Gemüse und Fleischbrühe anschwitzen. 3. Mehrere Stunden köcheln lassen (Extraktion). 4. Durchseihen. 5. Durch Reduzieren konzentrieren (Glace). 6. Mehlschwitze binden.",
+        "max_punkte": 6
+      },
+      {
+        "id": "G2-TK-008",
+        "bereich": "Technologie",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Technik wird verwendet, um Fleisch zarter zu machen?",
+        "optionen": [
+          "A) Marinade mit Säure oder Enzymen",
+          "B) Schnelle Hochtemperatur-Verarbeitung",
+          "C) Nur Salz verwenden",
+          "D) Mehrfaches Durchkochen"
+        ],
+        "richtige_antwort": "A",
+        "hinweise": "Marinaden zerlegen Proteine und machen Fleisch zarter."
+      },
+      {
+        "id": "G2-TK-009",
+        "bereich": "Technologie",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Nennen Sie vier emulgierte Saucen und ihre Basis.",
+        "loesungshinweis": "z.B. Holländaise (Eigelb + Butter + Zitronensaft), Béarnaise (Holländaise + Estragon), Mayonnaise (Eigelb + Öl), Aïoli (Mayonnaise + Knoblauch).",
+        "max_punkte": 4
+      },
+      {
+        "id": "G2-TK-010",
+        "bereich": "Technologie",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Bei welcher Temperatur werden Keime in Lebensmitteln zuverlässig abgetötet?",
+        "optionen": [
+          "A) 50 °C",
+          "B) 60 °C",
+          "C) 70 °C für mindestens 10 Min",
+          "D) 80 °C"
+        ],
+        "richtige_antwort": "C",
+        "hinweise": "Das ist eine kritische Kontrolle im HACCP-System."
+      },
+      {
+        "id": "G2-TK-011",
+        "bereich": "Technologie",
+        "frage_typ": "multiple_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Verfahren eignen sich zur Konservierung von Lebensmitteln?",
+        "optionen": [
+          "A) Einfrieren",
+          "B) Trocknen",
+          "C) Pökeln",
+          "D) Erhöhte Raumtemperatur"
+        ],
+        "richtige_antworten": ["A", "B", "C"],
+        "hinweise": "Konservierungsmethoden nutzen Kälte, Wasserentzug, oder Salz/Räucherung."
+      },
+      {
+        "id": "G2-TK-012",
+        "bereich": "Technologie",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "schwer",
+        "frage": "Erklären Sie den Unterschied zwischen einem Ragout und einem Eintopf.",
+        "loesungshinweis": "Ragout: kleinere Stücke, cremige Sauce, weniger Flüssigkeit, elegant angerichtet. Eintopf: alles aus einem Topf, robust, dickflüssig, Familienessen.",
+        "max_punkte": 3
+      },
+      {
+        "id": "G2-TK-013",
+        "bereich": "Technologie",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Besonderheit hat Sous-Vide Garen?",
+        "optionen": [
+          "A) Sehr hohe Temperaturen",
+          "B) Lebensmittel in Vakuumbeutel garen bei präziser Temperatur",
+          "C) Kein Wasser nötig",
+          "D) Nur für Fisch geeignet"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Sous-Vide ermöglicht exakte Temperaturkontrolle und perfekte Garpunkte."
+      },
+      {
+        "id": "G2-TK-014",
+        "bereich": "Technologie",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Nennen Sie drei klassische französische Fleischzubereitungen und ihre Besonderheit.",
+        "loesungshinweis": "z.B. Tournedos (Rinder-Medaillon), Fricassée (weiße Ragout), Daubenbraten (geschmortes Fleisch).",
+        "max_punkte": 3
+      },
+      {
+        "id": "G2-TK-015",
+        "bereich": "Technologie",
+        "frage_typ": "multiple_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Garverfahren sind für Fisch geeignet?",
+        "optionen": [
+          "A) Braten",
+          "B) Pochieren",
+          "C) Schmoren",
+          "D) Grillen"
+        ],
+        "richtige_antworten": ["A", "B", "D"],
+        "hinweise": "Schmoren ist zu lange für Fisch und würde ihn austrocknen."
+      }
+    ],
+    "warenwirtschaft": [
+      {
+        "id": "G2-WW-001",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "rechenaufgabe",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Sie erhalten 12 kg Rinderbraten mit 18 % Knochen und Fett (Ausbeute). Nach dem Garen beträgt der Gewichtsverlust 25 %. Wie viel Gramm gegartes Fleisch stehen zur Verfügung?",
+        "loesungsschritte": "Nutzgewicht = 12 kg × 0,82 = 9,84 kg. Nach Garung = 9,84 kg × 0,75 = 7,38 kg = 7380 g.",
+        "richtige_antwort": 7380,
+        "einheit": "g",
+        "max_punkte": 4
+      },
+      {
+        "id": "G2-WW-002",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "rechenaufgabe",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Eine Menükomponente kostet 3,80 € Wareneinsatz. Der Kalkulationsfaktor ist 4,2. Berechnen Sie den Verkaufspreis (auf 10 Cent runden).",
+        "loesungsschritte": "VK = 3,80 € × 4,2 = 15,96 € ≈ 16,00 €",
+        "richtige_antwort": 16.0,
+        "einheit": "€",
+        "max_punkte": 3
+      },
+      {
+        "id": "G2-WW-003",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Erklären Sie den Unterschied zwischen Mindesthaltbarkeitsdatum (MHD) und Verbrauchsdatum.",
+        "loesungshinweis": "MHD: Zeitraum bis zur Haltbarkeit unter optimalen Bedingungen. Nach MHD meist noch konsumierbar. Verbrauchsdatum: kritisches Datum, danach nicht mehr verwenden (Lebensmittelsicherheit).",
+        "max_punkte": 3
+      },
+      {
+        "id": "G2-WW-004",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Aussage zur Lagerbestandsverwaltung ist richtig?",
+        "optionen": [
+          "A) LIFO bedeutet ‚Last In, First Out'",
+          "B) FIFO bedeutet, dass zuerst eingelagerte Ware zuerst verbraucht wird",
+          "C) Der Mindestbestand wird überschritten, um Engpässe zu vermeiden",
+          "D) Höchstbestand hat keinen Einfluss auf Lagerkosten"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "FIFO ist das Standard-Lagerprinzip in der Gastronomie."
+      },
+      {
+        "id": "G2-WW-005",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "rechenaufgabe",
+        "schwierigkeitsgrad": "schwer",
+        "frage": "Ein Restaurant-Menü wird für 45,00 € verkauft. Der Wareneinsatz liegt bei 28 %. Personalkosten betragen 18 % vom Umsatz, Nebenkosten (Miete, Strom, Gas) 22 %. Berechnen Sie den Deckungsbeitrag und die Gewinnmarge.",
+        "loesungsschritte": "WE = 45 € × 0,28 = 12,60 €. Personal = 45 € × 0,18 = 8,10 €. Nebenkosten = 45 € × 0,22 = 9,90 €. Deckungsbeitrag = 45 € - 12,60 € = 32,40 €. Gewinn = 32,40 € - 8,10 € - 9,90 € = 14,40 €. Gewinnmarge = 14,40 € / 45 € = 32 %",
+        "richtige_antwort": "DB: 32,40 €, Gewinnmarge: 32%",
+        "max_punkte": 5
+      },
+      {
+        "id": "G2-WW-006",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Nennen Sie drei Kriterien für die Lieferantenauswahl.",
+        "loesungshinweis": "z.B. Qualität, Preis, Zuverlässigkeit (Liefertreue), Service, Nachhaltigkeit, Zahlungsbedingungen.",
+        "max_punkte": 3
+      },
+      {
+        "id": "G2-WW-007",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Welcher Prozentsatz wird typischerweise für den Wareneinsatz in der Gastronomie kalkuliert?",
+        "optionen": [
+          "A) 15-20 %",
+          "B) 25-35 %",
+          "C) 40-50 %",
+          "D) 60-70 %"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Das ist ein branchentypischer Richtwert."
+      },
+      {
+        "id": "G2-WW-008",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Erklären Sie das Konzept der ‚Inventory Turnover Rate' (Lagerumschlagshäufigkeit).",
+        "loesungshinweis": "Quotient aus Wareneinsatz und durchschnittlichem Lagerbestand. Zeigt, wie oft der Lagerbestand pro Jahr verkauft wird. Höhere Rate = geringere Lagerkosten und Verderb.",
+        "max_punkte": 4
+      },
+      {
+        "id": "G2-WW-009",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "multiple_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Maßnahmen reduzieren Lebensmittelverschwendung?",
+        "optionen": [
+          "A) Genaue Bedarfsplanung",
+          "B) Verwendung von Gemüseabfällen für Brühen",
+          "C) FIFO-Lagerprinzip konsequent anwenden",
+          "D) Alle verdorbenen Produkte still veranstalten"
+        ],
+        "richtige_antworten": ["A", "B", "C"],
+        "hinweise": "Nachhaltigkeit ist zentrales Thema moderner Gastronomie."
+      },
+      {
+        "id": "G2-WW-010",
+        "bereich": "Warenwirtschaft",
+        "frage_typ": "rechenaufgabe",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Sie erhalten 6 kg Seelachsfilets à 18,50 € pro kg. Für welchen Menüpreis sollten Sie 180g-Portionen kalkulieren (Kalkulationsfaktor 4,5)?",
+        "loesungsschritte": "Gesamtkosten = 6 kg × 18,50 € = 111 €. Portionen = 6000g / 180g = 33,3 ≈ 33. Wareneinsatz/Portion = 111 € / 33 = 3,36 €. Menüpreis = 3,36 € × 4,5 = 15,12 € ≈ 15,10 €",
+        "richtige_antwort": 15.1,
+        "einheit": "€",
+        "max_punkte": 4
+      }
+    ],
+    "wiso": [
+      {
+        "id": "G2-WS-001",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Welches Gesetz regelt die duale Berufsausbildung in Deutschland?",
+        "optionen": [
+          "A) Arbeitsschutzgesetz",
+          "B) Berufsbildungsgesetz (BBiG)",
+          "C) Tarifvertragsgesetz",
+          "D) Betriebsverfassungsgesetz"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Das BBiG ist Grundlage für Ausbildungsordnungen."
+      },
+      {
+        "id": "G2-WS-002",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Welche Arbeitsdauer pro Woche ist im Jugendarbeitsschutzgesetz festgelegt?",
+        "optionen": [
+          "A) Max. 30 Stunden",
+          "B) Max. 40 Stunden",
+          "C) Max. 50 Stunden",
+          "D) Max. 60 Stunden"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Das ist der Standard auch für Azubis unter 18 Jahren."
+      },
+      {
+        "id": "G2-WS-003",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Nennen Sie die vier Säulen der gesetzlichen Sozialversicherung.",
+        "loesungshinweis": "Krankenversicherung, Rentenversicherung, Arbeitslosenversicherung, Unfallversicherung.",
+        "max_punkte": 4
+      },
+      {
+        "id": "G2-WS-004",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Aussage zum Tarifvertrag ist richtig?",
+        "optionen": [
+          "A) Tarifverträge sind für alle Betriebe bindend",
+          "B) Tarifverträge regeln Löhne, Arbeitszeiten und Urlaubsansprüche",
+          "C) Tarifverträge können einseitig vom Betrieb geändert werden",
+          "D) Tarifverträge sind immer national einheitlich"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Die DEHOGA-Tarifverträge sind Standard in der Gastronomie."
+      },
+      {
+        "id": "G2-WS-005",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "multiple_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Aufgaben hat der Betriebsrat?",
+        "optionen": [
+          "A) Mitbestimmung bei Personalentscheidungen",
+          "B) Überwachung von Arbeitsschutz und Hygiene",
+          "C) Direkte Anstellung von Personal",
+          "D) Förderung guter Zusammenarbeit"
+        ],
+        "richtige_antworten": ["A", "B", "D"],
+        "hinweise": "Der Betriebsrat vertreten Arbeitnehmerinteressen."
+      },
+      {
+        "id": "G2-WS-006",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Was versteht man unter ‚Mindestlohn'?",
+        "optionen": [
+          "A) Der höchstmögliche Lohn",
+          "B) Der gesetzlich festgelegte Mindeststundenlohn",
+          "C) Der Durchschnittslohn einer Branche",
+          "D) Der Tariflohn abzüglich Steuern"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Der Mindestlohn wird regelmäßig angehoben."
+      },
+      {
+        "id": "G2-WS-007",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Erklären Sie den Begriff ‚Kündigungsschutz' und nennen Sie zwei gesetzliche Kündigungsschutzbestimmungen.",
+        "loesungshinweis": "Kündigungsschutz schützt Arbeitnehmer vor ungerechtfertigtem Jobverlust. z.B. Mutterschutz, Betriebsratsmitglieder, Schwerbehindertenvertretung.",
+        "max_punkte": 3
+      },
+      {
+        "id": "G2-WS-008",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Unternehmensform ist ein Restaurant in privater Hand normalerweise?",
+        "optionen": [
+          "A) Aktiengesellschaft (AG)",
+          "B) Einzelunternehmen oder Kommanditgesellschaft (KG)",
+          "C) Genossenschaft",
+          "D) Öffentliche Anstalt"
+        ],
+        "richtige_antwort": "B",
+        "hinweise": "Der Inhaber trägt volle Verantwortung und haftet mit Privatvermögen."
+      },
+      {
+        "id": "G2-WS-009",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "multiple_choice",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Welche Rechte hat ein Arbeitnehmende?",
+        "optionen": [
+          "A) Recht auf angemessene Entlohnung",
+          "B) Recht auf Pausen und Ruhezeiten",
+          "C) Recht auf Arbeitssicherheit",
+          "D) Recht auf Kündigung ohne Grund"
+        ],
+        "richtige_antworten": ["A", "B", "C"],
+        "hinweise": "Arbeitnehmerrechte sind gesetzlich geschützt."
+      },
+      {
+        "id": "G2-WS-010",
+        "bereich": "Wirtschafts- und Sozialkunde",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Was sind die Hauptinhalte eines Arbeitsvertrags?",
+        "loesungshinweis": "z.B. Arbeitsort, Arbeitsdauer, Entlohnung, Urlaubsanspruch, Kündigungsfristen, Tätigkeitsbeschreibung.",
+        "max_punkte": 4
+      }
+    ],
+    "veranstaltungen": [
+      {
+        "id": "G2-VE-001",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Erklären Sie den Begriff ‚Banquet Event Order' (BEO) und nennen Sie fünf Inhalte.",
+        "loesungshinweis": "BEO ist schriftliche Veranstaltungsbestätigung mit: Menü, Anzahl Personen, Raum, Getränke, Serviceform, Zeitplan, Besondere Wünsche.",
+        "max_punkte": 6
+      },
+      {
+        "id": "G2-VE-002",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Serviceform eignet sich am besten für ein großes Bankettessen mit 200 Personen?",
+        "optionen": [
+          "A) Tischservice einzeln portioniert",
+          "B) Plattenbedienung",
+          "C) Tellerbedienung",
+          "D) Büffetservice"
+        ],
+        "richtige_antwort": "C",
+        "hinweise": "Tellerbedienung ist bei großen Gruppen effizienter."
+      },
+      {
+        "id": "G2-VE-003",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Nennen Sie vier wichtige Punkte beim Eventbriefing mit dem Kunden.",
+        "loesungshinweis": "z.B. Gästezahl, Menü-Details, Serviceform, Timing/Ablauf, Besondere Anforderungen (Allergien, Diäten), Setup, Musik/Deko.",
+        "max_punkte": 4
+      },
+      {
+        "id": "G2-VE-004",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "rechenaufgabe",
+        "schwierigkeitsgrad": "schwer",
+        "frage": "Ein Event mit 120 Personen wird geplant. Menü à 35 € pro Person, Getränkepaket à 12 € pro Person. Overhead (Setup, Dekoration, Service) 15 % des Menüumsatzes. Berechnen Sie die Gesamtkalkulation und den Gewinn (bei 30 % Wareneinsatz).",
+        "loesungsschritte": "Menü-Umsatz = 120 × 35 € = 4200 €. Getränke = 120 × 12 € = 1440 €. Gesamt = 5640 €. WE Menü = 4200 € × 0,30 = 1260 €. Overhead = 4200 € × 0,15 = 630 €. Kosten = 1260 + 630 = 1890 €. Gewinn = 5640 - 1890 = 3750 €.",
+        "richtige_antwort": "3750 €",
+        "max_punkte": 5
+      },
+      {
+        "id": "G2-VE-005",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Erstellen Sie einen Ablauf für ein Gala-Dinner (4-Gänge-Menü, 80 Personen, 2 Stunden Service).",
+        "loesungshinweis": "19:00 Aperitif, 19:30 1. Gang, 20:00 2. Gang, 20:30 Intermezzo, 20:45 3. Gang, 21:15 4. Gang, 21:45 Ende.",
+        "max_punkte": 6
+      },
+      {
+        "id": "G2-VE-006",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "leicht",
+        "frage": "Was ist ein ‚Walk-in' bei Veranstaltungen?",
+        "optionen": [
+          "A) Gast, der ohne Reservierung hereinkommt",
+          "B) Hochzeitstrauerzug",
+          "C) Servicepersonal, das die Gäste herumführt",
+          "D) Nachzügler, die später ankommen"
+        ],
+        "richtige_antwort": "A",
+        "hinweise": "Walk-ins sind schwer zu planen, aber mögliche Zusatzbuchungen."
+      },
+      {
+        "id": "G2-VE-007",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "multiple_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welche Maßnahmen gehören zur Eventplanung?",
+        "optionen": [
+          "A) Gästeliste und Sitzordnung planen",
+          "B) Speisekarte absprechen und kalkulieren",
+          "C) Getränke, Dekoration, Musik festlegen",
+          "D) Personal und Zeitplan definieren"
+        ],
+        "richtige_antworten": ["A", "B", "C", "D"],
+        "hinweise": "Eventplanung ist holistische Koordination."
+      },
+      {
+        "id": "G2-VE-008",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Was versteht man unter ‚Personen pro Stunde' bei Events und warum ist das wichtig?",
+        "loesungshinweis": "Kapazität des Veranstaltungsortes pro Stunde (z.B. 50 Personen/h bei Cocktailempfang). Wichtig für Zeitplanung, Personalausstattung, Logistik.",
+        "max_punkte": 3
+      },
+      {
+        "id": "G2-VE-009",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "single_choice",
+        "schwierigkeitsgrad": "mittel",
+        "frage": "Welches Budget sollte für Dekoration bei einem 5-Sterne-Gala-Event eingeplant werden?",
+        "optionen": [
+          "A) 1-2 % der Veranstaltungskosten",
+          "B) 5-8 % der Veranstaltungskosten",
+          "C) 15-20 % der Veranstaltungskosten",
+          "D) 30-40 % der Veranstaltungskosten"
+        ],
+        "richtige_antwort": "C",
+        "hinweise": "Dekoration und Atmosphäre sind Erfolgsfaktoren bei Premium-Events."
+      },
+      {
+        "id": "G2-VE-010",
+        "bereich": "Veranstaltungsorganisation",
+        "frage_typ": "offen_kurz",
+        "schwierigkeitsgrad": "schwer",
+        "frage": "Erstellen Sie eine Post-Event-Checkliste (Nachbereitung) für ein erfolgreiche Eventdurchführung.",
+        "loesungshinweis": "z.B. Abrechnung, Kundenfeedback, Personal-Abrechnungen, Schäden dokumentieren, Lagerbestände aktualisieren, Lessons Learned aufschreiben.",
+        "max_punkte": 5
+      }
+    ]
+  },
+  "pruefungshinweise": [
+    "GAP 2 findet am Ende der dreijährigen Ausbildung statt.",
+    "Teil 2 besteht aus praktischer Menüprüfung (35%) und vier schriftlichen Prüfungsbereichen (65%).",
+    "Die Gesamtnote ergibt sich aus 25% (Teil 1) + 75% (Teil 2).",
+    "Bestehensvoraussetzung: mindestens 50% in der Gesamtnote und nicht mehr als 1 ungenügend.",
+    "Zeitmanagement ist auch bei schriftlichen Teilen entscheidend.",
+    "Praktische Prüfung: Vollständiges 3-Gänge-Menü mit Gastgespräch."
+  ],
+  "lernziele_gap2": [
+    "Komplexe Speisenzusammenstellungen planen und kalkulieren",
+    "Warenwirtschaftliche Kennzahlen verstehen und anwenden",
+    "Moderne Gartechniken beherrschen",
+    "Veranstaltungen von A bis Z organisieren",
+    "Betriebswirtschaftliche Grundlagen anwenden",
+    "Rechts- und Sozialordnung der Gastronomie kennen",
+    "Fachgespräche kompetent führen",
+    "Eigenverantwortlich arbeiten und Entscheidungen treffen"
+  ]
+}

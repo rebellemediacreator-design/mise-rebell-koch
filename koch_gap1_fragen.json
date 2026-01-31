@@ -1,0 +1,425 @@
+{
+  "beruf": "Koch/Köchin",
+  "pruefungsteil": "GAP 1 (Gestreckte Abschlussprüfung Teil 1)",
+  "pruefungsbereich": "Zubereiten von einfachen Speisen und Gerichten",
+  "dauer": "5 Stunden (60 Min schriftlich + 240 Min praktisch)",
+  "gewichtung": "25% der Gesamtnote",
+  "erstellt": "2026-01-24",
+  "version": "1.0",
+  "fragen_gesamt": 50,
+  "kategorien": [
+    "Technologie",
+    "Hygiene",
+    "Warenkunde",
+    "Warenwirtschaft",
+    "Kalkulation",
+    "Ernährungslehre",
+    "Arbeitsorganisation"
+  ],
+  "fragen": [
+    {
+      "id": "G1-TK-001",
+      "bereich": "Technologie",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Welches Garverfahren eignet sich am besten, um zartes Gemüse schonend zu garen und dabei möglichst viele Nährstoffe zu erhalten?",
+      "optionen": [
+        "A) Frittieren bei 180 °C",
+        "B) Dünsten mit wenig Flüssigkeit",
+        "C) Grillen über direkter Hitze",
+        "D) Schmoren im Bräter"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Dünsten gilt als schonendstes Garverfahren, da es mit minimaler Flüssigkeit arbeitet und kurze Garzeiten ermöglicht."
+    },
+    {
+      "id": "G1-TK-002",
+      "bereich": "Technologie",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "In welcher Reihenfolge werden die Schichten beim Panieren aufgebracht?",
+      "optionen": [
+        "A) Ei – Mehl – Paniermehl",
+        "B) Mehl – Ei – Paniermehl",
+        "C) Paniermehl – Mehl – Ei",
+        "D) Mehl – Paniermehl – Ei"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Mehl bindet Feuchtigkeit, Ei ist Bindemittel, Paniermehl gibt knusprige Kruste."
+    },
+    {
+      "id": "G1-TK-003",
+      "bereich": "Technologie",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Welche Gartemperatur ist ideal für das Pochieren von Eiern?",
+      "optionen": [
+        "A) 50 °C",
+        "B) 65-75 °C",
+        "C) 85-95 °C",
+        "D) 100 °C (Siedepunkt)"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Pochieren findet knapp unter dem Siedepunkt statt, um das Eiweiß zu garen, ohne das Eigelb zu kochen."
+    },
+    {
+      "id": "G1-TK-004",
+      "bereich": "Technologie",
+      "frage_typ": "offen_kurz",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Nennen Sie drei trockene Garverfahren und geben Sie je ein Beispielgericht an.",
+      "loesungshinweis": "Braten (z.B. Rinderbraten), Grillen (z.B. Steak), Backen (z.B. Kartoffelgratin), Frittieren (z.B. Pommes).",
+      "max_punkte": 6
+    },
+    {
+      "id": "G1-TK-005",
+      "bereich": "Technologie",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Wodurch zeichnet sich das Schmoren aus?",
+      "optionen": [
+        "A) Gares nur in Wasser ohne weitere Flüssigkeit",
+        "B) Anbraten und anschließend längeres Garen in wenig Flüssigkeit",
+        "C) Schnelles Garen bei sehr hoher Temperatur",
+        "D) Garen ohne jegliche Flüssigkeit"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Schmoren kombiniert trockene und feuchte Garmethode."
+    },
+    {
+      "id": "G1-HY-006",
+      "bereich": "Hygiene",
+      "frage_typ": "multiple_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Welche Aussagen zur Personalhygiene sind RICHTIG?",
+      "optionen": [
+        "A) Hände müssen vor Arbeitsbeginn und nach jedem Toilettengang gründlich gewaschen werden.",
+        "B) Ringe und Armbänder sind in der Küche verboten.",
+        "C) Lange Haare müssen zusammengebunden oder mit Netzhaube bedeckt werden.",
+        "D) Bei Erkältung darf mit Handschuhen weitergearbeitet werden."
+      ],
+      "richtige_antworten": ["A", "B", "C"],
+      "hinweise": "Personalhygiene ist zentrale Infektionsprävention. Schmuck kann Speisen verunreinigen."
+    },
+    {
+      "id": "G1-HY-007",
+      "bereich": "Hygiene",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Bei welcher Kombinationen aus Temperatur und Zeit werden Salmonellen sicher abgetötet?",
+      "optionen": [
+        "A) 60 °C für 5 Minuten",
+        "B) 70 °C für 10 Minuten",
+        "C) 75 °C für 2 Minuten",
+        "D) 50 °C für 30 Minuten"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Dies ist eine kritische Grenzwertregelung im HACCP-Konzept."
+    },
+    {
+      "id": "G1-HY-008",
+      "bereich": "Hygiene",
+      "frage_typ": "offen_kurz",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Nennen Sie fünf Maßnahmen der Betriebshygiene in der Küche.",
+      "loesungshinweis": "z.B. Reinigungsplan einhalten, getrennte Schneidebretter (Fleisch/Gemüse/Fisch), regelmäßige Reinigung von Kühlgeräten, Schädlingsbekämpfung, Reinigung von Arbeitsflächen.",
+      "max_punkte": 5
+    },
+    {
+      "id": "G1-HY-009",
+      "bereich": "Hygiene",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Welche Maßnahme verhindert Kreuzkontamination zwischen rohem Fleisch und Gemüse?",
+      "optionen": [
+        "A) Alle Lebensmittel in derselben Kälteanlage lagern",
+        "B) Getrennte Schneidebretter und Messer für verschiedene Lebensmittelgruppen verwenden",
+        "C) Rohes Fleisch oben im Kühlschrank lagern",
+        "D) Alles mit derselben Spülmaschine reinigen"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Kreuzkontamination ist eine Hauptinfektionsquelle; räumliche Trennung ist essentiell."
+    },
+    {
+      "id": "G1-WA-010",
+      "bereich": "Warenkunde",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Welche Merkmale weisen auf frischen Fisch hin?",
+      "optionen": [
+        "A) Trübe, eingefallene Augen und grauer Kiemendeckel",
+        "B) Intensive Rot-Färbung der Kiemen, klare Augen, fester Körper",
+        "C) Süßlicher, fauliger Geruch",
+        "D) Schleimiger, matter Körper"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Frischer Fisch hat intensive Färbung und klare Augen."
+    },
+    {
+      "id": "G1-WA-011",
+      "bereich": "Warenkunde",
+      "frage_typ": "offen_kurz",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Nennen Sie drei Unterschiede zwischen mehligen und festkochenden Kartoffeln.",
+      "loesungshinweis": "Mehlig: höherer Stärkegehalt, beim Kochen zerfallend, ideal für Kartoffelpüree. Festkochend: niedriger Stärkegehalt, formstabil, ideal für Kartoffelsalat und Bratkartoffeln.",
+      "max_punkte": 3
+    },
+    {
+      "id": "G1-WA-012",
+      "bereich": "Warenkunde",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Wie erkannt man verdorbenes Fleisch?",
+      "optionen": [
+        "A) Rote Farbe spricht für Frische",
+        "B) Fauliger Geruch, grau-grüne Verfärbungen, klebrige Oberfläche",
+        "C) Festes Aussehen und starker Salzgeruch",
+        "D) Helles Rot über die gesamte Schnittfläche"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Verdorbenes Fleisch zeigt klare Verfallserscheinungen."
+    },
+    {
+      "id": "G1-WA-013",
+      "bereich": "Warenkunde",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Bei welcher Temperatur sollten frische Eier gelagert werden?",
+      "optionen": [
+        "A) 18-20 °C, trocken, lichtgeschützt, getrennt von riechenden Lebensmitteln",
+        "B) 3-5 °C im Kühlschrank",
+        "C) 25-30 °C bei Raumtemperatur",
+        "D) -18 °C im Tiefkühler"
+      ],
+      "richtige_antwort": "A",
+      "hinweise": "Eier verderben schneller, wenn sie zu früh gekühlt werden."
+    },
+    {
+      "id": "G1-WW-014",
+      "bereich": "Warenwirtschaft",
+      "frage_typ": "rechenaufgabe",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Sie erhalten 8 kg Rinderfilet. Der Putz- und Zuschnittverlust beträgt 22 %. Wie viel kg Nutzgewicht steht zur Verfügung?",
+      "loesungsschritte": "Nutzgewicht = 8 kg × (100 % - 22 %) = 8 kg × 0,78 = 6,24 kg",
+      "richtige_antwort": 6.24,
+      "einheit": "kg",
+      "max_punkte": 3
+    },
+    {
+      "id": "G1-WW-015",
+      "bereich": "Warenwirtschaft",
+      "frage_typ": "rechenaufgabe",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Aus 6,24 kg Rinderfilet sollen Filetsteak à 200 g hergestellt werden. Wie viele Portionen sind möglich?",
+      "loesungsschritte": "Portionen = 6240 g / 200 g = 31,2 → 31 Portionen",
+      "richtige_antwort": 31,
+      "einheit": "Portionen",
+      "max_punkte": 3
+    },
+    {
+      "id": "G1-WW-016",
+      "bereich": "Warenwirtschaft",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Welcher Begriff beschreibt die Höchstmenge an Ware, die im Lager gehalten werden darf?",
+      "optionen": [
+        "A) Meldebestand",
+        "B) Höchstbestand",
+        "C) Mindestbestand",
+        "D) Durchschnittbestand"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Der Höchstbestand begrenzt Lagerkosten und Verderb."
+    },
+    {
+      "id": "G1-WW-017",
+      "bereich": "Warenwirtschaft",
+      "frage_typ": "offen_kurz",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Erläutern Sie das Lagerprinzip FIFO.",
+      "loesungshinweis": "FIFO = First In, First Out. Zuerst eingelagerte Ware wird auch zuerst verbraucht, um Überlagerung zu vermeiden.",
+      "max_punkte": 3
+    },
+    {
+      "id": "G1-KA-018",
+      "bereich": "Kalkulation",
+      "frage_typ": "rechenaufgabe",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Der Wareneinsatz für ein Gericht beträgt 4,20 €. Sie kalkulieren mit einem Faktor von 3,8. Berechnen Sie den Verkaufspreis (auf 10 Cent gerundet).",
+      "loesungsschritte": "Verkaufspreis = 4,20 € × 3,8 = 15,96 € ≈ 16,00 €",
+      "richtige_antwort": 16.0,
+      "einheit": "€",
+      "max_punkte": 3
+    },
+    {
+      "id": "G1-KA-019",
+      "bereich": "Kalkulation",
+      "frage_typ": "rechenaufgabe",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Ein Gericht wird zum Preis von 22,50 € verkauft. Der geplante Wareneinsatz liegt bei 30 %. Wie hoch darf der Wareneinsatz maximal sein?",
+      "loesungsschritte": "Wareneinsatz = 22,50 € × 0,30 = 6,75 €",
+      "richtige_antwort": 6.75,
+      "einheit": "€",
+      "max_punkte": 3
+    },
+    {
+      "id": "G1-ER-020",
+      "bereich": "Ernährungslehre",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Welche Lebensmittelgruppe ist die beste Eiweißquelle?",
+      "optionen": [
+        "A) Obst und Gemüse",
+        "B) Fleisch, Fisch, Eier, Milchprodukte",
+        "C) Getreide und Brot",
+        "D) Öle und Fette"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Diese Gruppe wird als Eiweißgruppe bezeichnet."
+    },
+    {
+      "id": "G1-ER-021",
+      "bereich": "Ernährungslehre",
+      "frage_typ": "multiple_choice",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Welche Maßnahmen reduzieren den Fettgehalt eines Gerichts?",
+      "optionen": [
+        "A) Mageres Fleisch auswählen",
+        "B) Garverfahren wie Dünsten statt Frittieren wählen",
+        "C) Reichlich Sahne in Saucen verwenden",
+        "D) Skin the chicken statt mit Haut garen"
+      ],
+      "richtige_antworten": ["A", "B", "D"],
+      "hinweise": "Wahl des Rohstoffs, Garmethode und Zubereitung beeinflussen Fettgehalt."
+    },
+    {
+      "id": "G1-ER-022",
+      "bereich": "Ernährungslehre",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Welche Mahlzeitenzusammenstellung ist ernährungsphysiologisch am sinnvollsten?",
+      "optionen": [
+        "A) Schnitzel mit Pommes",
+        "B) Gegrilltes Hähnchen mit Vollkornreis und gemischtem Salat",
+        "C) Spaghetti mit Butter",
+        "D) Kartoffelsuppe ohne Gemüse"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Vollwertig mit Protein, Kohlenhydraten, Gemüse und Vitaminen."
+    },
+    {
+      "id": "G1-OR-023",
+      "bereich": "Arbeitsorganisation",
+      "frage_typ": "fallaufgabe",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Sie sollen für 4 Personen folgende Speisen zubereiten: Tomatennudelsuppe, gebratenes Hähnchenbrustfilet mit Kartoffeln und Gemüse, Obstsalat. Erstellen Sie einen Arbeitsablauf mit mindestens 8 Schritten in logischer Reihenfolge.",
+      "loesungshinweis": "1. Alle Lebensmittel bereitstellen (Mise en place); 2. Gemüse schneiden; 3. Kartoffeln aufsetzen; 4. Suppe ansetzen; 5. Hähnchen würzen und anbraten; 6. Gemüse in den Topf zum Hähnchen; 7. Obst schneiden und anrichten; 8. Abschmecken und finalisieren.",
+      "max_punkte": 8
+    },
+    {
+      "id": "G1-OR-024",
+      "bereich": "Arbeitsorganisation",
+      "frage_typ": "offen_kurz",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Nennen Sie fünf wichtige Kriterien für eine effiziente Arbeitsplanung in der praktischen Prüfung.",
+      "loesungshinweis": "z.B. Garzeiten beachten, paralleles Arbeiten, Ofenbelegung planen, Kühlzonen nutzen, richtige Reihenfolge von Vorbereitung und Garen.",
+      "max_punkte": 5
+    },
+    {
+      "id": "G1-TK-025",
+      "bereich": "Technologie",
+      "frage_typ": "offen_kurz",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Definieren Sie den Begriff ‚Mise en Place'.",
+      "loesungshinweis": "Mise en Place = Vorbereitung aller Zutaten, Geräte und Arbeitsmaterialien vor Beginn der Zubereitung.",
+      "max_punkte": 3
+    },
+    {
+      "id": "G1-TK-026",
+      "bereich": "Technologie",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Welche Schneidetechnik wird mit ‚Brunoise' bezeichnet?",
+      "optionen": [
+        "A) Streichholzformat (5 × 5 × 50 mm)",
+        "B) Feiner Würfel (2 × 2 × 2 mm)",
+        "C) Dünne Blätter/Streifen",
+        "D) Grobe Würfel (1 × 1 × 1 cm)"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Brunoise ist eine Präzisionsschneidetechnik."
+    },
+    {
+      "id": "G1-HY-027",
+      "bereich": "Hygiene",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Welches Lebensmittel sollte NIEMALS ungekühlt bei Raumtemperatur gelagert werden?",
+      "optionen": [
+        "A) Kartoffeln",
+        "B) Zwiebeln",
+        "C) Rohes Fleisch",
+        "D) Äpfel"
+      ],
+      "richtige_antwort": "C",
+      "hinweise": "Rohes Fleisch hat kurze Haltbarkeit und muss gekühlt werden."
+    },
+    {
+      "id": "G1-WA-028",
+      "bereich": "Warenkunde",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Welches Merkmal ist KEIN Zeichen für Frische bei Gemüse?",
+      "optionen": [
+        "A) Glänzende, straffe Haut",
+        "B) Welke, schlaffe Oberfläche",
+        "C) Intensives Aroma",
+        "D) Tiefe Farbtönung"
+      ],
+      "richtige_antwort": "B",
+      "hinweise": "Welkheit deutet auf längere Lagerdauer hin."
+    },
+    {
+      "id": "G1-WW-029",
+      "bereich": "Warenwirtschaft",
+      "frage_typ": "offen_kurz",
+      "schwierigkeitsgrad": "leicht",
+      "frage": "Erklären Sie den Begriff ‚Verfallsdatum' (Verbrauchsdatum).",
+      "loesungshinweis": "Datum, bis zu dem ein Lebensmittel spätestens verzehrt werden muss; danach darf es nicht mehr verarbeitet oder verkauft werden.",
+      "max_punkte": 2
+    },
+    {
+      "id": "G1-TK-030",
+      "bereich": "Technologie",
+      "frage_typ": "single_choice",
+      "schwierigkeitsgrad": "mittel",
+      "frage": "Welches Kochverfahren erfordert die längste Garzeit?",
+      "optionen": [
+        "A) Blanchieren",
+        "B) Braten",
+        "C) Schmoren",
+        "D) Dünsten"
+      ],
+      "richtige_antwort": "C",
+      "hinweise": "Schmoren kombiniert Anbraten und langes Garen in Flüssigkeit."
+    }
+  ],
+  "pruefungshinweise": [
+    "Die GAP 1 besteht aus schriftlichem Teil (60 Min) und praktischem Teil (240 Min).",
+    "Im schriftlichen Teil werden Fragen zu Lebensmittelkunde, Hygiene, Garverfahren und Warenwirtschaft gestellt.",
+    "Im praktischen Teil wird eine einfache 3-teilige Mahlzeit zubereitet, angerichtet und präsentiert.",
+    "Das Fachgespräch während der praktischen Prüfung ist wesentlicher Teil der Bewertung.",
+    "Hygiene und Sauberkeit werden laufend beobachtet.",
+    "Zeitmanagement ist entscheidend für den Erfolg."
+  ],
+  "lernziele": [
+    "Lebensmittel unterscheiden und lagern können",
+    "Garverfahren sachgerecht auswählen und anwenden",
+    "Einfache Speisen selbstständig zubereiten",
+    "Hygiene- und Sicherheitsstandards einhalten",
+    "Qualität von Speisen beurteilen",
+    "Arbeitsabläufe rational planen",
+    "Mit Kalkulation und Wareneinsatz umgehen können",
+    "Fachgespräche kompetent führen"
+  ]
+}

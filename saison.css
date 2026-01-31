@@ -1,0 +1,172 @@
+/* ============================================================================
+   SAISON-KALENDER STYLES
+   ============================================================================ */
+
+.saisonControls {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.saisonCategoryBar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.saisonCategoryBtn {
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(107,89,69,.22);
+  background: rgba(238,236,228,.75);
+  color: var(--ink);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.saisonCategoryBtn.is-active {
+  background: var(--camel);
+  border-color: rgba(107,89,69,.25);
+}
+
+.saisonMonthBar {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.saisonMonthBtn {
+  height: 38px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(107,89,69,.18);
+  background: rgba(210,202,191,.35);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all .2s ease;
+}
+
+.saisonMonthBtn.is-active {
+  background: rgba(188,158,129,.90);
+  border-color: rgba(107,89,69,.25);
+}
+
+.saisonContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 840px) {
+  .saisonContent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.saisonCard {
+  background: rgba(255,255,255,.65);
+  border: 1px solid rgba(107,89,69,.14);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: var(--shadow2);
+  transition: all .2s ease;
+}
+
+.saisonCard:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.saisonCard__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.saisonCard__title {
+  font-weight: 900;
+  font-size: 18px;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.saisonCard__badges {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.badge--season {
+  background: rgba(188,158,129,.35);
+  color: var(--ink);
+}
+
+.badge--bio {
+  background: rgba(107,158,81,.35);
+  color: var(--ink);
+}
+
+.saisonCard__meta {
+  font-size: 13px;
+  color: var(--ash);
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.saisonCard__meta strong {
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.saisonCard__bio {
+  font-size: 12px;
+  color: var(--ash);
+  background: rgba(238,236,228,.60);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.saisonCard__bio strong {
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.saisonEmpty {
+  text-align: center;
+  padding: 60px 20px;
+  opacity: .65;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 820px) {
+  .saisonCard__header {
+    flex-direction: column;
+  }
+  
+  .saisonCard__badges {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
